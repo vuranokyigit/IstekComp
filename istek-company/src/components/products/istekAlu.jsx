@@ -12,7 +12,6 @@ const IstekAlu = () => {
         <>
           <section
               className="home-section section-hero image-bg overlay-2 slanted"
-              style={{ backgroundImage: 'url("/assets/Evarenew2.png")' }}
               id="home-section"
           >
               <div className="container">
