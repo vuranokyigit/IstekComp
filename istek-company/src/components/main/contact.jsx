@@ -2,8 +2,7 @@ import React from 'react';
 import {useTranslation} from "react-i18next";
 import '../styles/component.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faLinkedin, faWhatsapp,} from '@fortawesome/free-brands-svg-icons';
+import {  faWhatsapp,} from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot, faPhone , faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 

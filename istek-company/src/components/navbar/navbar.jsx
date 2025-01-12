@@ -23,13 +23,13 @@ const MyNavbar = () => {
                 id="navbarCollapse"
                 className="fixed-top navbar-scroll ">
             <div className="navbar-brand d-lg-none" style={{flex:"1"}} >
-                <a href="#"><img className="logoImage" src="/Istek_Logo.png" alt="" style={{ maxWidth: '700px' }}/></a>
+                <a href="/istek"><img className="logoImage" src="/Istek_Logo.png" alt="" style={{ maxWidth: '700px' }}/></a>
             </div>
             <Navbar.Toggle className="col-md-3" id="navbarToggle" aria-controls="responsive-navbar-nav" onClick={toggleNav} style={{marginRight:"90px"}} />
 
             <Navbar.Collapse className={`col-md-12 ${isNavToggled ? 'nav-to-left' : ''}`} id="responsive-navbar-nav">
                 <div className="col-md-4 nav-animate" id="mainLogoClass">
-                    <a  href="#"><img className="logoImage" src="/Istek_Logo.png" alt=" "/></a>
+                    <a  href="/istek"><img className="logoImage" src="/Istek_Logo.png" alt=" "/></a>
                 </div>
                 <div className="col-md-4" id="navbarContentTextRoute">
                 <Nav className="ml-auto" id="navbarBar">

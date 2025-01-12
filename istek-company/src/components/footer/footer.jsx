@@ -3,7 +3,7 @@ import React from "react";
 import '../styles/component.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+import {  faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import {useTranslation} from "react-i18next";
 const Footer = () => {
     const {t}=useTranslation();
@@ -56,7 +56,7 @@ const Footer = () => {
                                 </h3>
                                 
                                 <h6>{t('contactInfoAddress')}</h6>
-                                <a href="/eva/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('footerContactButton')}</button></a>
+                                <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('footerContactButton')}</button></a>
                             </div>
 
                         </div>
@@ -64,7 +64,7 @@ const Footer = () => {
                     <div className="row text-center">
                         <div className="container">
                         <div className="col-12">
-                            <a href="#"><img id="footerImg" style={{width:"15%"}}  src="/Istek_Logo.png" alt=" "/></a>
+                            <a href="/istek"><img id="footerImg" style={{width:"15%"}}  src="/Istek_Logo.png" alt=" "/></a>
                         </div>
                         </div>
                     </div>
