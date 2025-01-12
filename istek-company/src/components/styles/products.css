@@ -1,231 +1,113 @@
 
-:root {
-    --transition-time: 2.3s;
-    overflow-x: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-#cardSection{
-    padding: 20px;
-}
-.card {
-    position: relative;
-    height: 400px;
-    width: 100%;
-    margin: 10px 0;
-    transition: ease all var(--transition-time);
-    perspective: 1200px;
-    border: none;
-}
-@media (min-width: 1454px) {
-    .card {
-        height: 500px;
-    }
-}
-.card:hover .cover {
-    transform: rotateX(0deg) rotateY(-180deg);
-}
-
-.card:hover .cover:before {
-    transform: translateZ(30px);
-}
-
-.card:hover .cover:after {
-    background-color: black;
-}
-
-.card:hover h1 {
-    transform: translateZ(100px);
-}
-
-.card:hover .price {
-    transform: translateZ(60px);
-}
-
-.card:hover a {
-    transform: translateZ(-60px) rotatey(-180deg);
-}
-
-.cover {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    transform-style: preserve-3d;
-    transition: ease all var(--transition-time);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.cover:before {
-    content: '';
-    position: absolute;
-    border: 5px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    z-index: 2;
-    transition: ease all var(--transition-time);
-    transform-style: preserve-3d;
-    transform: translateZ(0px);
-}
-
-.cover:after {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    z-index: 2;
-    transition: ease all 1.3s;
-
-}
-
-/*.cover.item-a {
-    background-image: url("/public/assets/EvaCoreLogo.png");
-}
-
-.cover.item-b {
-    background-image: url("/public/assets/EvaBrandLogo.png");
-}
-
-.cover.item-c {
-    background-image: url("/public/assets/Evarenew2.png");}*/
-
-.h1Card {
-    font-weight: 600;
-    position: absolute;
-    bottom: 55px;
-    left: 50px;
-    color: white;
-    transform-style: preserve-3d;
-    transition: ease all var(--transition-time);
-    z-index: 3;
-    font-size: 3em;
-    transform: translateZ(0px);
-}
-
-.card-back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #0b0f08;
-    transform-style: preserve-3d;
-    transition: ease all var(--transition-time);
-    transform: translateZ(-1px);
+body .container2{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 150px;
 }
 
-.card-back a {
-    transform-style: preserve-3d;
-    transition: ease transform var(--transition-time), ease background 0.5s;
-    transform: translateZ(-1px) rotatey(-180deg);
-    background: transparent;
-    border: 1px solid white;
-    font-weight: 200;
-    font-size: 1.3em;
-    color: white;
-    padding: 14px 32px;
-    outline: none;
-    text-decoration: none;
+body .container2 .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
 }
 
-.card-back a:hover {
-    background-color: white;
-    color: #0b0f08;
-}
-#card-box {
-    margin-top: -20%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 65%;
-    height: 300px;
-    background-color: #28a745;
-}
-.productCard{
-    margin-top: 15%;
+body .container2 .card:nth-child(1) .box .content a {
+  background: #ce1a22;
 }
 
-@media (max-width: 991px) {
-    #card-box {
-        width: 100%;
-        margin-top: 0;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
+body .container2 .card:nth-child(2) .box .content a {
+  background: #ce1a22;
 }
 
-@media (max-width: 500px) {
-    #card-box {
-        margin-top: -10%;
-        flex-direction: column;
-        overflow-y: scroll;
-    }
+body .container2 .card:nth-child(3) .box .content a {
+  background: #ce1a22;
 }
 
-#card-text {
-    padding: 20px;
+body .container2 .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-#cardBodyHome {
-    padding: 1px!important;
+body .container2 .card .box:hover {
+  transform: translateY(-50px);
 }
 
-#cardTitle {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 5px;
+body .container2 .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
 }
 
-#nearLogoExp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.divider-horizontal{
-    color: #28a745;
-}
-@media (min-width: 500px) {
-    .divider-horizontal{
-        margin-top: 6%;
-        width: 1px;
-        height: 60%; /* veya istediğiniz bir yükseklik */
-        background-color: #EF7215; /* veya istediğiniz renk */
-        color: #021E17;
-    }
-}
-#proProductSolesSection{
-    margin-top: -12%;
+body .container2 .card .box .content {
+  padding: 20px;
+  text-align: center;
 }
 
-.previousTag{
-    left: 0;
-    width: 50px;
-    position: fixed;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: -250px;
+body .container2 .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
 }
-#previousTagId{
-    width: 50px;
-    height: 50px;
+
+body .container2 .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
 }
-/*EVABRAND*/
-.documentSection{
-    margin-bottom: 20%;
+
+body .container2 .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
 }
-/*EvaRenew*/
-#bloomLogo{
-    width: 50%;
-    margin-top: 10%;
+
+body .container2 .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
 }
-.homeIcon{
-    color:white ;
+body .container2 .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
 }
