@@ -56,7 +56,7 @@ const Home = () => {
       <div className="row">
         <div className="col-md-3 col-sm-6">
           <div className="detail-box">
-            <h2>1000+</h2>
+            <h2>12+</h2>
             <h5>Years of Business</h5>
           </div>
         </div>
@@ -72,12 +72,7 @@ const Home = () => {
             <h5>Satisfied Customers</h5>
           </div>
         </div>
-        <div className="col-md-3 col-sm-6">
-          <div className="detail-box">
-            <h2>1500+</h2>
-            <h5>Cups of Coffee</h5>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
