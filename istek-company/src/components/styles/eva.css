@@ -347,6 +347,11 @@ h1, h2, h3, h4 {
 }
 
 .site-section {
+    background-color: #000;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    border-radius: 50px 50px 0px 0px;
+    margin-top: -400px;
     padding-top: 5rem;
     padding-bottom: 5rem;
     position: relative;
@@ -1366,4 +1371,28 @@ section{
         font-size: 18px;
         font-weight: 500;
       }
+      .uk-margin{
+        display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 5%;
+      }
+      .uk-form-label{
+        color: black;
+    float: left;
+      }
+      .uk-form-controls{
+        float: right;
+      }
+      #uk-bg-white{
+        border: 1px solid black;
+    border-radius: 20px;
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+      }
+
       

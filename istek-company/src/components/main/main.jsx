@@ -15,6 +15,7 @@ import Footer from '../footer/footer';
 import IstekAlu from '../products/istekAlu';
 import IstekCu from '../products/istekCu';
 import IstekCuPlus from '../products/istekCuPlus';
+import Projects from './projects';
 
 const Main = () => {
     return (
@@ -27,6 +28,7 @@ const Main = () => {
                     <Route path="/istek/humanres/ferdadurdu" element={<Ferdadurdu />} />
                     <Route path="/istek/humanres/turkuacar" element={<Turkuacar />} />
                     <Route path="/istek/product" element={<Product />} />
+                    <Route path="/istek/projects" element={<Projects />} />
                     <Route path="/istek/contact" element={<Contact />} />
                     <Route path="/istek/istek-cu-plus" element={<IstekCuPlus />} />
                     <Route path="/istek/istek-alu" element={<IstekAlu />} />
