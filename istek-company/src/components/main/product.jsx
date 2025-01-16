@@ -43,7 +43,7 @@ const Product = () => {
                     className="img-fluid"
                   />
                 </a>
-              </figure>
+              </figure> 
             </div>
             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
               <div className="mb-5">
