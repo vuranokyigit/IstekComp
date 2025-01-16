@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 * {
   margin: 0;
@@ -110,4 +109,222 @@ body .container2 .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
+}
+.dorik-section-ab2jbjkk{
+  position: relative;
+  background-color: #ce1a22;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: -100px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.dorik-row-p5qzo5wr {
+  --nav-padding: 15px;
+}
+.dorik-column-sx477vmg {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.column-inner {
+  width: 100%;
+  position: relative;
+}
+.dorik-wrapper {
+  display: block;
+  position: relative;
+}
+.dorik-heading-u7q2i2rj.dorik-heading-u7q2i2rj.dorik-heading-u7q2i2rj {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.flex {
+  display: flex
+;
+}
+.dorik-text-3q3j7rrw {
+  text-align: left;
+}
+.dorik-text {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+@media screen and (min-width: 1024px) {
+  .col-lg-2\/5 {
+      width: 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .col-lg-3\/5 {
+      width: 60%;
+  }
+}
+.dorik-column-n4vsrfs2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.dorik-accordion-exws77h5 details {
+  background: #fff;
+  border-radius: 0px 0px 0px 0px;
+  border: 1px solid #000;
+  background-color: var(--color-3);
+  overflow: hidden;
+  height: 48px;
+  transition: height 0.3s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.dorik-accordion-exws77h5 details[open] {
+  height: 193px;
+  animation: accordionOpen 0.4s ease-in-out;
+}
+
+.dorik-accordion-exws77h5 details:not([open]) {
+  height: 48px;
+  animation: accordionClose 0.4s ease-in-out;
+}
+
+.dorik-accordion-exws77h5 details[open] .details-content {
+  animation: slideDown 0.6s ease-out;
+  height: 145px; /* 193px - 48px (header height) */
+}
+
+.dorik-accordion-exws77h5 details:not([open]) .details-content {
+  animation: slideUp 0.6s ease-out;
+  height: 0;
+}
+
+.dorik-accordion-exws77h5 details[open] summary::before {
+  content: '-';
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.dorik-accordion-exws77h5 details:not([open]) summary::before {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.dorik-accordion-exws77h5 summary {
+  background-color: var(--color-2);
+  font-size: 18px;
+  line-height: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.dorik-accordion-exws77h5 summary:hover {
+  background-color: #b0161d;
+}
+
+.dorik-accordion-exws77h5 summary::before {
+  padding-left: 10px;
+  font-size: inherit;
+  content: '+';
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+.dorik-accordion-exws77h5 .details-content {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+.dorik-accordion-exws77h5 details[open] .details-content {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+@keyframes accordionOpen {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes accordionClose {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+    max-height: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 1000px;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 1000px;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-15px);
+    max-height: 0;
+  }
+}
+
+.dorik-accordion-exws77h5 .details-content p {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--color-4);
+}
+.dorik-button-05lyzjtb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 50px 50px 50px 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 18px;
+  color: var(--color-3);
+  line-height: 18px;
+}
+.dorik-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+}
+#leftrightsectionistek{
+  padding: 30px;
+}
+@media screen and (max-width: 767px) {
+  .dorik-section-ab2jbjkk {
+      border-radius: 20px 20px 20px 20px;
+  }
 }

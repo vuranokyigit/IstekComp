@@ -131,7 +131,7 @@ const Home = () => {
             <div class="box">
               <div class="content">
                 <h2>K</h2>
-                <h3>Solar Systems</h3>
+                <h3>Solar Energy System</h3>
                 <p></p>
                 <a href="/istek/istek-cu-plus">{t("homeAboutUsLink")}</a>
               </div>
@@ -185,8 +185,9 @@ const Home = () => {
           position: "relative",
           zIndex: "1",
         }}
+        id="solarEnergySystemCalculation"
       >
-        <h1 style={{ color: "black" }}>Solar System Calculation</h1>
+        <h1 style={{ color: "black" }}>Solar Energy System Calculation</h1>
         <div className="uk-bg-white br-20 mk5-ic uk-position-relative min-h500 ic-color" id="uk-bg-white">
       <div>
         <div className="uk-heading-line uk-text-center fw-5 fs-20">
@@ -242,7 +243,7 @@ const Home = () => {
 
           {/* Hesaplama Butonu */}
           <div className="uk-margin" >
-            <div className="uk-form-controls">
+            <div className="uk-form-controls" style={{display:"flex",justifyContent:"center"}}>
               <button className="uk-button uk-w-100" onClick={hesapla} style={{color:"black",padding:" 8px 20px",borderRadius:"5px",boxShadow:"0 10px 20px rgba(0, 0, 0, 0.2);",transition:"0.5s"}}>
                 Hesapla
               </button>

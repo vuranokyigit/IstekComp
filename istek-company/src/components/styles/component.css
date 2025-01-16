@@ -24,7 +24,7 @@ p{
     justify-content: center;
     height: 5.5rem;
     margin-top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 @media (min-width: 991px) {
     .carousel .slider-wrapper {
@@ -44,7 +44,7 @@ p{
 @media screen and (min-width: 530px) and (max-width: 991px) {
     /* Bu alana 530px ile 991px arasında uygulanacak CSS kodlarını ekleyin*/
     #navbarCollapse{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.5);
     }
     #navbarTablet{
         margin-top: -7%;
@@ -59,7 +59,8 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: auto;
+        white-space: nowrap; 
     }
     #responsive-navbar-nav{
         margin-top: -3%;
@@ -73,19 +74,58 @@ p{
     }
 
 }
-#firstChild:hover,#secondChild:hover,#thirdChild:hover,#fourthChild:hover{
-    font-size: larger;
-}
 #navbarBar{
     display: flex;
     justify-content: center;
-    color: #ffffff;
+    color: #000;
     font-weight: bold;
-
+    white-space: nowrap;
 }
+
+#navbarBar div {
+    white-space: nowrap;
+}
+
+#navbarBar div a {
+   /* transition: transform 0.3s ease-in-out;*/
+    color: #000 !important;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/*#navbarBar div a:hover {
+    transform: scale(1.2);
+}*/
+
+#firstChild:hover,
+#secondChild:hover,
+#thirdChild:hover,
+#fourthChild:hover {
+    /*font-size: larger;*/
+}
+
+#firstChild a,
+#secondChild a,
+#thirdChild a,
+#fourthChild a,
+#fifthChild a {
+    position: relative;
+    transition: transform 0.3s ease;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#firstChild a:hover,
+#secondChild a:hover,
+#thirdChild a:hover,
+#fourthChild a:hover,
+#fifthChild a:hover {
+    transform: scale(1.2);
+}
+
 #navbarContentTextRoute{
-    color: #ffffff;
-font-weight: bold;
+    color: #000;
+    font-weight: bold;
 }
 
 .logoImage{
@@ -93,8 +133,11 @@ width: 30%;
 }
 @media (max-width: 991px) {
     #responsive-navbar-nav {
-        background-color: rgb(23 25 27 / 99%);
+        background-color: rgba(255, 255, 255, 0.5);
         height: 1000%;
+    }
+    #navbarBar div a {
+        color: #000 !important;
     }
 }
 #language button{
@@ -568,4 +611,335 @@ video{
 }
 #linked{
     margin-left: 2%;
+}
+#productsTitleIstek{
+    min-height: 872px;
+   
+}
+
+/* Solar Energy System Calculation Styles */
+#solarEnergySystemCalculation {
+    padding: 4rem 2rem;
+}
+
+#solarEnergySystemCalculation h1 {
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#solarEnergySystemCalculation .uk-bg-white {
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#solarEnergySystemCalculation .uk-heading-line {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+}
+
+#solarEnergySystemCalculation .uk-form-label {
+    font-weight: 500;
+    color: #555;
+    font-size: 1rem;
+    white-space: nowrap;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+#solarEnergySystemCalculation .uk-form-controls {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#solarEnergySystemCalculation .uk-select,
+#solarEnergySystemCalculation .uk-input {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+    color: #333;
+    width: 100%;
+}
+
+#solarEnergySystemCalculation .uk-select:focus,
+#solarEnergySystemCalculation .uk-input:focus {
+    border-color: #ce1a22;
+    box-shadow: 0 0 0 3px rgba(206, 26, 34, 0.1);
+    outline: none;
+}
+
+#solarEnergySystemCalculation .uk-select:hover,
+#solarEnergySystemCalculation .uk-input:hover {
+    border-color: #ce1a22;
+}
+
+#solarEnergySystemCalculation .uk-button {
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    width: auto;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: none;
+}
+
+#solarEnergySystemCalculation .uk-button:hover {
+    background: #ffffff;
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+#solarEnergySystemCalculation .uk-button:active {
+    transform: translateY(0);
+}
+
+#solarEnergySystemCalculation .uk-margin {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#solarEnergySystemCalculation .uk-form-controls {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#solarEnergySystemCalculation input:disabled {
+    background-color: #f8f9fa;
+    border-color: #e0e0e0;
+    color: #666;
+    cursor: not-allowed;
+}
+
+#solarEnergySystemCalculation .uk-form-controls .uk-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #solarEnergySystemCalculation {
+        padding: 2rem 1rem;
+    }
+    
+    #solarEnergySystemCalculation .uk-bg-white {
+        padding: 1.5rem;
+    }
+    
+    #solarEnergySystemCalculation h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    #solarEnergySystemCalculation .uk-heading-line {
+        font-size: 1.5rem;
+    }
+    
+    #solarEnergySystemCalculation .uk-margin {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #solarEnergySystemCalculation .uk-form-label {
+        margin-bottom: 0.5rem;
+    }
+    
+    #solarEnergySystemCalculation .uk-form-controls {
+        width: 100%;
+    }
+}
+
+#solarEnergySystemCalculation .uk-form-horizontal {
+    position: relative;
+}
+
+#solarEnergySystemCalculation .uk-button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#solarEnergySystemCalculation .uk-button {
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    width: auto;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: none;
+}
+
+#solarEnergySystemCalculation .uk-button:hover {
+    background: #ffffff;
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    #solarEnergySystemCalculation .uk-form-horizontal {
+        padding-bottom: 60px;
+    }
+    
+    #solarEnergySystemCalculation .uk-button {
+        width: 80%;
+        min-width: unset;
+    }
+}
+
+#solarEnergySystemCalculation .uk-margin {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#solarEnergySystemCalculation .uk-margin.button-margin {
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#solarEnergySystemCalculation .uk-form-margin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#solarEnergySystemCalculation .uk-button {
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    width: auto;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    #solarEnergySystemCalculation .uk-form-margin {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #solarEnergySystemCalculation .uk-margin.button-margin {
+        margin-top: 1.5rem;
+    }
+    
+    #solarEnergySystemCalculation .uk-button {
+        width: 200px;
+    }
+}
+
+#solarEnergySystemCalculation .uk-form-controls {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#solarEnergySystemCalculation .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+#solarEnergySystemCalculation .calculate-button {
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    width: auto;
+    min-width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: none;
+}
+
+#solarEnergySystemCalculation .calculate-button:hover {
+    background: #ffffff;
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    #solarEnergySystemCalculation .calculate-button {
+        width: 200px;
+    }
+}
+
+/* Separate button controls from form controls */
+#solarEnergySystemCalculation .uk-form-controls.button-controls {
+    width: 100%;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#solarEnergySystemCalculation .uk-form-controls.button-controls .uk-button {
+    width: auto;
+    min-width: 200px;
+}
+
+/* Override any inherited flex-end alignment */
+#solarEnergySystemCalculation .uk-margin.button-margin {
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+#solarEnergySystemCalculation .uk-margin.button-margin .uk-form-controls {
+    width: auto !important;
+    justify-content: center !important;
 }
