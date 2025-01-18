@@ -297,6 +297,7 @@ const Home = () => {
       </div>
     </div>
       </section>
+      
 
       {/* target section 
       <section className="target_section layout_padding2">

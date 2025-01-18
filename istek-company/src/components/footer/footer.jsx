@@ -1,5 +1,4 @@
 import React from "react";
-
 import '../styles/component.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
@@ -20,27 +19,31 @@ const Footer = () => {
                             <h3 style={{textTransform:"uppercase"}}>{t('footerProductsTitle')}</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/istek/istek-cu">Istek Cu</a>
+                                    <a href="/istek/product">{t('footerProducts1')}</a>
                                 </li>
                                 <li>
-                                    <a href="/istek/istek-cu-plus">Istek Cu+</a>
+                                    <a href="/istek/product">{t('footerProducts2')}</a>
                                 </li>
                                 <li>
-                                    <a href="/istek/istek-alu">Istek Alu</a>
+                                    <a href="/istek/product">{t('footerProducts3')}</a>
                                 </li>
+                               
                             </ul>
                         </div>
                         <div className="col-6 col-md-4 mb-4 mb-md-0">
                             <h3 style={{textTransform:"uppercase"}}>{t('footerCompanyTitle')}</h3>
                             <ul  className="list-unstyled">
                                 <li>
-                                    <a href="/eva/about">{t('footerCompanyLink1')}</a>
+                                    <a href="/istek/about">{t('footerCompanyLink1')}</a>
                                 </li>
                                 <li>
-                                    <a href="/eva/product">{t('footerCompanyLink2')}</a>
+                                    <a href="/istek/product">{t('footerCompanyLink2')}</a>
                                 </li>
                                 <li>
-                                    <a href="/eva/contact">{t('footerCompanyLink3')}</a>
+                                    <a href="/istek/maintenance">{t('footerCompanyLink4')}</a>
+                                </li>
+                                <li>
+                                    <a href="/istek/contact">{t('footerCompanyLink3')}</a>
                                 </li>
                             </ul>
                         </div>
@@ -77,7 +80,7 @@ const Footer = () => {
                 </div>
 
             </footer>
-            <footer>
+            <footer style={{backgroundColor:"#000"}}>
                 <div className="container">
                     <div className="row" >
                         <div className="col" style={{height:"40px", display:"flex", alignItems:"center", justifyContent:"center"}}>

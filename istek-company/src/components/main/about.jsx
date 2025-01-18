@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <section
-        style={{ backgroundImage: 'url("/img/solarpanelwgrass.jpg")' }}
+        style={{ backgroundImage: 'url("/img/gnsmanzr.jpg")' }}
         className="home-section section-hero overlay slanted position-relative"
         id="home-section"
       >
@@ -28,7 +28,7 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 mb-5 mb-lg-0">
               <img
-                src="/img/solarpanelwp.jpg"
+                src="/img/kollector.jpg"
                 alt=""
                 className="img-fluid img-shadow"
                 id="firstImgInAbout"
@@ -43,10 +43,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <h1 className="animated-heading" style={{ fontWeight: "bold" }}>
-                {t("humanResourcesTitle")}
-              </h1>
-      <section style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+      <section className="site-section" style={{ display: 'flex', justifyContent: 'space-evenly',backgroundColor:"white",marginTop:"-110px" }} id="aboutHumanSection">
         <figure class="snip1336">
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg"
@@ -64,9 +61,7 @@ const About = () => {
             <p>
             {t('aboutUsHumanFerda2')}
             </p>
-            <a href="/istek/humanres/ferdadurdu" class="info">
-            {t('homeAboutUsLink')}
-            </a>
+            
           </figcaption>
         </figure>
         <figure class="snip1336 hover">
@@ -86,9 +81,27 @@ const About = () => {
             <p>
             {t('aboutUsHumanTurku3')}
             </p>
-            <a href="/istek/humanres/turkuacar" class="info">
-            {t('homeAboutUsLink')}
-            </a>
+            
+          </figcaption>
+        </figure>
+        <figure class="snip1336 hover">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample74.jpg"
+            alt="sample74"
+          />
+          <figcaption>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample2.jpg"
+              alt="profile-sample2"
+              class="profile"
+            />
+            <h2>
+            TÜRKÜ AÇAR<span style={{color:'red'}}>{t('aboutUsHumanTurkuBreif')}</span>
+            </h2>
+            <p>
+            {t('aboutUsHumanTurku3')}
+            </p>
+            
           </figcaption>
         </figure>
       </section>
