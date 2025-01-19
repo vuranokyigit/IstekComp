@@ -1,3 +1,4 @@
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -45,7 +46,7 @@ const About = () => {
       </section>
       <section >
         <div className="site-section"  style={{ display: 'flex', justifyContent: 'space-evenly',backgroundColor:"white",marginTop:"-110px" }} id="aboutHumanSection">
-        <h2 style={{color:"black"}}>{t("aboutUsMeeting")}</h2>
+        <h2 style={{color:"black", display:"flex",alignItems:"center"}}>{t("aboutUsMeeting")}</h2>
         <figure class="snip1336">
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg"
