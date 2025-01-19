@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -106,34 +108,33 @@ const Home = () => {
           class="container2"
           style={{ justifyContent: "center", marginTop: "50px" }}
         >
-          <div class="card" style={{ height: "350px", minWidth: "250px" }}>
+          <div class="card" style={{ height: "350px", minWidth: "350px" }}>
             <div class="box">
               <div class="content">
-                <h2>IS</h2>
-                <h3>Solar Collectors</h3>
-                <p></p>
-                <a href="/istek/istek-cu">{t("homeAboutUsLink")}</a>
+              <span><FontAwesomeIcon icon={faArrowUp} size="2xl" style={{marginBottom:"30px",marginTop:"20px"}} /></span>
+
+                <h3>Satış</h3>
+                <p>İhtiyaçlarına cevap verecek şekilde uyarlayacağımız güneş kollektörü, boyler ve güneş enerjisi sistemlerimizi bütün adımlarda size maksimum desteği sağlayarak ulaştırıyoruz. </p>
               </div>
             </div>
           </div>
-          <div class="card" style={{ height: "350px", minWidth: "250px" }}>
+          <div class="card" style={{ height: "350px", minWidth: "350px" }}>
             <div class="box">
               <div class="content">
-                <h2>TE</h2>
-                <h3>Boylers</h3>
-                <p></p>
-                <a href="/istek/istek-cu">{t("homeAboutUsLink")}</a>
+              <span><FontAwesomeIcon icon={faArrowUp} size="2xl" style={{marginBottom:"30px",marginTop:"20px"}} /></span>
+
+                <h3>Anahtar teslim projeler</h3>
+                <p>Proje planlaması ve  montaj hizmetleri ile her adımda yanındayız.</p>
               </div>
             </div>
           </div>
 
-          <div class="card" style={{ height: "350px", minWidth: "250px" }}>
+          <div class="card" style={{ height: "350px", minWidth: "350px" }}>
             <div class="box">
               <div class="content">
-                <h2>K</h2>
-                <h3>Solar Energy System</h3>
-                <p></p>
-                <a href="/istek/istek-cu-plus">{t("homeAboutUsLink")}</a>
+              <span><FontAwesomeIcon icon={faArrowUp} size="2xl" style={{marginBottom:"30px",marginTop:"20px"}} /></span>
+                <h3>Satış Sonrası</h3>
+                <p>Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip.</p>
               </div>
             </div>
           </div>

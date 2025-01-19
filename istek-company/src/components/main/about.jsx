@@ -43,7 +43,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="site-section" style={{ display: 'flex', justifyContent: 'space-evenly',backgroundColor:"white",marginTop:"-110px" }} id="aboutHumanSection">
+      <section >
+        <div className="site-section"  style={{ display: 'flex', justifyContent: 'space-evenly',backgroundColor:"white",marginTop:"-110px" }} id="aboutHumanSection">
+        <h2 style={{color:"black"}}>{t("aboutUsMeeting")}</h2>
         <figure class="snip1336">
           <img
             src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg"
@@ -56,10 +58,10 @@ const About = () => {
               class="profile"
             />
             <h2>
-            FERDA DURDU<span style={{color:'red'}}>{t('aboutUsHumanFerdaBreif')}</span>
+            FERDA DURDU<span style={{color:'red'}}>CEO</span>
             </h2>
             <p>
-            {t('aboutUsHumanFerda2')}
+            {t('aboutUsHumanFerdaBreif')}
             </p>
             
           </figcaption>
@@ -76,10 +78,10 @@ const About = () => {
               class="profile"
             />
             <h2>
-            TÜRKÜ AÇAR<span style={{color:'red'}}>{t('aboutUsHumanTurkuBreif')}</span>
+            TÜRKÜ AÇAR<span style={{color:'red'}}>CTO</span>
             </h2>
             <p>
-            {t('aboutUsHumanTurku3')}
+            {t('aboutUsHumanTurkuBreif')}
             </p>
             
           </figcaption>
@@ -96,7 +98,7 @@ const About = () => {
               class="profile"
             />
             <h2>
-            TÜRKÜ AÇAR<span style={{color:'red'}}>{t('aboutUsHumanTurkuBreif')}</span>
+            MEHMET ATLI<span style={{color:'red'}}>CFO</span>
             </h2>
             <p>
             {t('aboutUsHumanTurku3')}
@@ -104,6 +106,7 @@ const About = () => {
             
           </figcaption>
         </figure>
+        </div>
       </section>
     </>
   );

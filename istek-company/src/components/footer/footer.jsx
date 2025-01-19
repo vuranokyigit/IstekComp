@@ -9,8 +9,8 @@ const Footer = () => {
 
     return(
         <>
-            <footer className="site-footer slanted-footer">
-                <a href="#top" className="smoothscroll scroll-top">
+            <footer className="site-footer slanted-footer" style={{marginTop:"-60px"}}>
+                <a href="#top" className="smoothscroll scroll-top" style={{marginTop:"45px"}}>
                     <span><FontAwesomeIcon icon={faArrowUp} /></span>
                 </a>
                 <div className="container">
@@ -67,7 +67,7 @@ const Footer = () => {
                     <div className="row text-center">
                         <div className="container">
                         <div className="col-12">
-                            <a href="/istek"><img id="footerImg" style={{width:"15%"}}  src="/Istek_Logo.png" alt=" "/></a>
+                            <a href="/istek"><img id="footerImg" style={{width:"15%"}}  src="/isteklogokirmizi.png" alt=" "/></a>
                         </div>
                         </div>
                     </div>

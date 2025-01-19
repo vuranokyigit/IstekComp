@@ -110,14 +110,16 @@ body .container2 .card .box .content a:hover {
   background: #fff;
   color: #000;
 }
-.dorik-section-ab2jbjkk{
-  position: relative;
-  background-color: #ce1a22;
+.dorik-section-ab2jbjkk {
+    width: 100%;
+    position: relative;
+    background-color: #ce1a22;
     padding-top: 60px;
     padding-bottom: 60px;
     border-radius: 50px 50px 50px 50px;
     margin-top: -100px;
-    z-index: 3;
+    margin-bottom: auto;
+    z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction: row;

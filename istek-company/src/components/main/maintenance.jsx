@@ -7,8 +7,8 @@ function Projects() {
     return (
         <>
         <section
-          style={{ backgroundColor: "  #ce1a22" }}
-          className="home-section section-hero image-bg overlay-2 slanted"
+          style={{ backgroundImage: 'url("/img/gnsmanzr.jpg")' }}
+          className="home-section section-hero overlay slanted position-relative"
           id="home-section"
         >
           <div className="container">
@@ -17,8 +17,8 @@ function Projects() {
               id="productsTitleIstek"
             >
               <div className="col-md-8 text-center">
-                <h1 style={{ textTransform: "capitalize", marginTop: "-120px" }}>
-                  SERVICE & MAINTENANCE
+              <h1 className="animated-heading" style={{ fontWeight: "bold" }}>
+                  {t("productMainTitle")}
                 </h1>
                 <div className="mx-auto w-75">
                   <p></p>
@@ -48,7 +48,7 @@ function Projects() {
               </div>
               <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
                 <div className="mb-5">
-                  <h3 className="mb-4 h4">Kollektor Bakim</h3>
+                  <h3 className="mb-4 h4">Istek Cu</h3>
                   <p className="mb-0">{t("productEvaBrandParagraph")}</p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Projects() {
             <div className="row mb-5 mt-5">
               <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
                 <div className="mb-5">
-                  <h3 className="mb-4 h4">Boyler Bakim</h3>
+                  <h3 className="mb-4 h4">Istek Cu</h3>
                   <p className="mb-0">{t("productEvaBrandParagraph")}</p>
                 </div>
               </div>
@@ -84,6 +84,25 @@ function Projects() {
             <div className="row mb-5">
               <div className="col-md-6">
                 <p />
+              </div>
+            </div>
+            <div className="row mb-5 mt-5">
+              <div className="col-lg-6">
+                <figure>
+                  <a href="/assets/EvaBrandLogo.png" data-fancybox="gallery">
+                    <img
+                      src="/img/solarcollector.jpg"
+                      alt=""
+                      className="img-fluid"
+                    />
+                  </a>
+                </figure>
+              </div>
+              <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
+                <div className="mb-5">
+                  <h3 className="mb-4 h4">Istek Cu</h3>
+                  <p className="mb-0">{t("productEvaBrandParagraph")}</p>
+                </div>
               </div>
             </div>
           </div>
