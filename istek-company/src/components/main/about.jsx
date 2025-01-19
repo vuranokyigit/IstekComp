@@ -1,4 +1,3 @@
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
