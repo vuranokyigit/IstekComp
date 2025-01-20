@@ -441,6 +441,10 @@ video{
 #firstImgInAbout{
     height: 30rem!important;
 }
+#firstImgInAbout2{
+   object-fit: cover;
+    
+}
 .carouselSection{
     margin-top:-10rem;
     padding: 10%;

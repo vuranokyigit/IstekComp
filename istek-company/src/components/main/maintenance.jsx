@@ -7,7 +7,7 @@ function Projects() {
     return (
         <>
         <section
-          style={{ backgroundImage: 'url("/img/gnsmanzr.jpg")' }}
+          style={{ backgroundImage: 'url("/img/catidaki.jpg")' }}
           className="home-section section-hero overlay slanted position-relative"
           id="home-section"
         >
@@ -18,7 +18,7 @@ function Projects() {
             >
               <div className="col-md-8 text-center">
               <h1 className="animated-heading" style={{ fontWeight: "bold" }}>
-                  {t("productMainTitle")}
+                  {t("maintenanceMainTitle")}
                 </h1>
                 <div className="mx-auto w-75">
                   <p></p>

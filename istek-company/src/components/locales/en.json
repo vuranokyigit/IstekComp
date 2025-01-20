@@ -1,6 +1,6 @@
 {
     "navbarHome": "HOME",
-    "navbarAboutUs": "ABOUT US",
+    "navbarAboutUs": "ABOUT ",
     "navbarProduct": "PRODUCTS",
     "navbarMaintenance":"MAINTENANCE",
     "navbarContact": "CONTACT",
@@ -25,7 +25,7 @@
     "homeMapParagraph": "Evacare is a Turkey-based company that stands out with its international expertise. Our company, which has a 95% market share outside Turkey, operates effectively in a wide geography from Italy to Ukraine, from Morocco to Brazil.",
     "homeSolarTitle": "Our vision for carbonless future",
     "homeSolarParagraph": "We care about our future. We believe that  paris agreement goals are crucial. The Agreement includes commitments from all countries to reduce their emissions and work together to adapt to the impacts of climate change so we act accordingly. %60 of our electricity is produced by solar panels. We are committed to increase our %60 to %100 by the year 2025",
-    "aboutUsMainTitle": "ABOUT US",
+    "aboutUsMainTitle": "ABOUT",
     "aboutUsSecondMainTitle": "Discover the Power of EVA with Evacare: Superior Comfort and Sustainable Durability with Every Step",
     "aboutButtonVideo": "Watch Video",
     "aboutUsMeeting":"MEET OUR LEADERS",
@@ -93,5 +93,6 @@
     "footerContactTitle": "CONTACT US",
     "footerContactButton": "Contact Us",
     "footerCopyRightText": "All Right Reserved By",
-    "footerPrivacy": "Privacy & Policy"
+    "footerPrivacy": "Privacy & Policy",
+    "maintenanceMainTitle": "MAINTENANCE"
   }

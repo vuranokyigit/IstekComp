@@ -1411,3 +1411,7 @@ section{
          }
 
         }
+       .projectClass{
+        width:33.333333%;
+        height: 400px;
+       }

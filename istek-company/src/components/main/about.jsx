@@ -23,7 +23,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="site-section" id="next-section" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+      <section className="site-section" id="next-section" style={{ display: 'flex', justifyContent: 'space-evenly', marginBottom:"4%" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-5 mb-lg-0">

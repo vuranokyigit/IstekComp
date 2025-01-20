@@ -67,7 +67,7 @@ const Footer = () => {
                     <div className="row text-center">
                         <div className="container">
                         <div className="col-12">
-                            <a href="/istek"><img id="footerImg" style={{width:"15%"}}  src="/isteklogokirmizi.png" alt=" "/></a>
+                            <a href="/istek"><img id="footerImg" style={{width:"15%"}}  src="/Istek_Logo_Version_red_copy.png" alt=" "/></a>
                         </div>
                         </div>
                     </div>
