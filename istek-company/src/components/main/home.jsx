@@ -58,7 +58,7 @@ const Home = () => {
         <div
           className="site-section"
           id="next-section"
-          style={{ display: 'flex', justifyContent: 'space-evenly' }}
+          style={{ display: 'flex', justifyContent: 'space-evenly', marginTop:'-10%' }}
         >
           <div className="container">
             <div className="row align-items-center">
