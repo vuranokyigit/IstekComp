@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import CountUp from 'react-countup';
+
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-import { faIndustry, faCubes, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faFileCircleCheck, faTrophy, faGlobe, faCartShopping, faHammer,faTty } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -77,50 +78,64 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="row pb-0 border-top pt-5 block__19738 section-counter" id="counterMainDiv">
-          <div className="container" id="counterCont">
-            <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
-              <span className="homeIcon">
-                <FontAwesomeIcon icon={faCubes} size="2xl" />
-              </span>
-              <div
-                className="d-flex align-items-center justify-content-center mb-2"
-                id="infoNumber"
-              >
-                <span className="icon-line-mobile mr-3" />
-                <span className="number" data-number={40}>40</span>
-              </div>
-              <span className="caption">{t('homeCounterProduction')} </span>
-            </div>
-            <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
-              <span className="homeIcon">
-                <FontAwesomeIcon icon={faUserGroup} size="2xl" />
-              </span>
-              <div
-                className="d-flex align-items-center justify-content-center mb-2"
-                id="infoNumber"
-              >
-                <span className="icon-line-lightbulb mr-3" />
-                <span className="number" data-number={7}>7</span>
-              </div>
-              <span className="caption">{t('homeCounterWorkers')}</span>
-            </div>
-            <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
-              <span className="homeIcon">
-                <FontAwesomeIcon icon={faIndustry} size="2xl" />
-              </span>
-              <div
-                className="d-flex align-items-center justify-content-center mb-2"
-                id="infoNumber"
-              >
-                <span className="number" data-number={1000}>1000</span>
-              </div>
-              <span className="caption">
-                m<sup>2</sup> {t('homeCounterFactoryArea')}
-              </span>
-            </div>
+        <div
+      className="row pb-0 border-top pt-5 block__19738 section-counter"
+      id="counterMainDiv"
+    >
+      <div className="container" id="counterCont">
+        {/* Production Counter */}
+        <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
+          <span className="homeIcon">
+            <FontAwesomeIcon icon={faTrophy} size="2xl" />
+          </span>
+          <div
+            className="d-flex align-items-center justify-content-center mb-2"
+            id="infoNumber"
+          >
+            <span className="icon-line-mobile mr-3" />
+            <span className="number">
+              <CountUp start={0} end={40} duration={2.5} />+
+            </span>
           </div>
+          <span className="caption">{t('homeCounterBrands')}</span>
         </div>
+
+        {/* Workers Counter */}
+        <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
+          <span className="homeIcon">
+            <FontAwesomeIcon icon={faGlobe} size="2xl" />
+          </span>
+          <div
+            className="d-flex align-items-center justify-content-center mb-2"
+            id="infoNumber"
+          >
+            <span className="icon-line-lightbulb mr-3" />
+            <span className="number">
+              <CountUp start={0} end={7} duration={2.5} />
+            </span>
+          </div>
+          <span className="caption">{t('homeCounterArea')}</span>
+        </div>
+
+        {/* Factory Area Counter */}
+        <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
+          <span className="homeIcon">
+            <FontAwesomeIcon icon={faFileCircleCheck} size="2xl" />
+          </span>
+          <div
+            className="d-flex align-items-center justify-content-center mb-2"
+            id="infoNumber"
+          >
+            <span className="number">
+              <CountUp start={0} end={1000} duration={2.5} />+
+            </span>
+          </div>
+          <span className="caption">
+            {t('homeCounterProject')}
+          </span>
+        </div>
+      </div>
+    </div>
       </section>
 
       <section
@@ -144,18 +159,18 @@ const Home = () => {
 
         <div class="container2" style={{ justifyContent: 'center', marginTop: '50px' }}>
           <div class="card" style={{ height: '350px', minWidth: '350px' }}>
-            <div class="box">
+            <div class="box" style={{alignItems:"flex-start"}}>
               <div class="content">
                 <span>
                   <FontAwesomeIcon
-                    icon={faArrowUp}
+                    icon={faCartShopping}
                     size="2xl"
                     style={{ marginBottom: '30px', marginTop: '20px' }}
                   />
                 </span>
 
                 <h3>Satış</h3>
-                <p>
+                <p style={{fontSize:"smaller"}}>
                   İhtiyaçlarına cevap verecek şekilde uyarlayacağımız güneş kollektörü, boyler ve
                   güneş enerjisi sistemlerimizi bütün adımlarda size maksimum desteği sağlayarak
                   ulaştırıyoruz.{' '}
@@ -164,34 +179,34 @@ const Home = () => {
             </div>
           </div>
           <div class="card" style={{ height: '350px', minWidth: '350px' }}>
-            <div class="box">
+            <div class="box" style={{alignItems:"flex-start"}}>
               <div class="content">
                 <span>
                   <FontAwesomeIcon
-                    icon={faArrowUp}
+                    icon={faHammer}
                     size="2xl"
                     style={{ marginBottom: '30px', marginTop: '20px' }}
                   />
                 </span>
 
-                <h3>Anahtar teslim projeler</h3>
-                <p>Proje planlaması ve montaj hizmetleri ile her adımda yanındayız.</p>
+                <h3>Anahtar Teslim Projeler</h3>
+                <p style={{fontSize:"smaller"}}>Proje planlaması ve montaj hizmetleri ile her adımda yanındayız.</p>
               </div>
             </div>
           </div>
 
           <div class="card" style={{ height: '350px', minWidth: '350px' }}>
-            <div class="box">
+            <div class="box" style={{alignItems:"flex-start"}}>
               <div class="content">
                 <span>
                   <FontAwesomeIcon
-                    icon={faArrowUp}
+                    icon={faTty} 
                     size="2xl"
                     style={{ marginBottom: '30px', marginTop: '20px' }}
                   />
                 </span>
                 <h3>Satış Sonrası</h3>
-                <p>Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip.</p>
+                <p style={{fontSize:"smaller"}}>Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip.</p>
               </div>
             </div>
           </div>
