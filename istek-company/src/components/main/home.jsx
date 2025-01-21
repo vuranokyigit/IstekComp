@@ -149,12 +149,9 @@ const Home = () => {
           zIndex: '1',
         }}
       >
-        <h1 style={{ color: 'black' }}>Our Services & Capability</h1>
-        <h6 style={{ color: 'black', fontWeight: 'lighter' }}>
-          Our expertise lies in providing top-quality solar collectors, water boilers, <br /> and
-          complete solar energy systems tailored to your needs. <br />
-          From installation to regular maintenance and after-sales support,
-          <br /> we ensure your energy solutions run efficiently and sustainably.
+        <h1 style={{ color: 'black'  }}>{t('ourServicesTitle')}</h1>
+        <h6 style={{ color: 'black', fontWeight: 'lighter', margin:"auto",width:"50%",fontSize:"smaller"}}>
+          {t('ourServicesParagraph')}
         </h6>
 
         <div class="container2" style={{ justifyContent: 'center', marginTop: '50px' }}>
@@ -169,11 +166,9 @@ const Home = () => {
                   />
                 </span>
 
-                <h3>Satış</h3>
+                <h3>{t('ourServicesCard1Title')}</h3>
                 <p style={{fontSize:"smaller"}}>
-                  İhtiyaçlarına cevap verecek şekilde uyarlayacağımız güneş kollektörü, boyler ve
-                  güneş enerjisi sistemlerimizi bütün adımlarda size maksimum desteği sağlayarak
-                  ulaştırıyoruz.{' '}
+                {t('ourServicesCard1Paragraph')}{' '}
                 </p>
               </div>
             </div>
@@ -189,8 +184,8 @@ const Home = () => {
                   />
                 </span>
 
-                <h3>Anahtar Teslim Projeler</h3>
-                <p style={{fontSize:"smaller"}}>Proje planlaması ve montaj hizmetleri ile her adımda yanındayız.</p>
+                <h3>{t('ourServicesCard2Title')}</h3>
+                <p style={{fontSize:"smaller"}}>{t('ourServicesCard2Paragraph')}</p>
               </div>
             </div>
           </div>
@@ -205,8 +200,8 @@ const Home = () => {
                     style={{ marginBottom: '30px', marginTop: '20px' }}
                   />
                 </span>
-                <h3>Satış Sonrası</h3>
-                <p style={{fontSize:"smaller"}}>Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip.</p>
+                <h3>{t('ourServicesCard3Title')}</h3>
+                <p style={{fontSize:"smaller"}}>{t('ourServicesCard3Paragraph')}</p>
               </div>
             </div>
           </div>

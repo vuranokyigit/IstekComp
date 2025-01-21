@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileInvoice } from '@fortawesome/free-solid-svg-icons';
+import { faFileInvoice,faAngleRight} from '@fortawesome/free-solid-svg-icons';
 
 const Product = () => {
   const { t } = useTranslation();
@@ -15,9 +15,10 @@ const Product = () => {
         <div className="container">
           <div className="row align-items-center justify-content-center" id="productsTitleIstek">
             <div className="col-md-8 text-center">
-              <h1 style={{ textTransform: 'capitalize', marginTop: '-120px' }}>
-                {t('productMainTitle')}
+            <h1 className="animated-heading" style={{ fontWeight: "bold" }}>
+                {t("productMainTitle")}
               </h1>
+              
               <div className="mx-auto w-75">
                 <p></p>
               </div>
@@ -64,7 +65,7 @@ const Product = () => {
                 <a
                   href="/Istek_Cu+_Technical_Sheet.pdf"
                   style={{ color: 'black' }}
-                  target="_blank"
+                  target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                   rel="noopener noreferrer"
                 >
                   <span className="homeIcon">
@@ -95,7 +96,7 @@ const Product = () => {
           zIndex: '1',
         }}
       >
-        <h1>BOYLER</h1>
+        <h1>{t('boilerTitle')}</h1>
         <p
           className="mb-0"
           style={{
@@ -112,9 +113,9 @@ const Product = () => {
 
         <div>
           <a
-            href="/Istek_Cu+_Technical_Sheet.pdf"
+            href="/boiler.pdf"
             style={{ color: 'white' }}
-            target="_blank"
+            target="/istek/boiler.pdf"
             rel="noopener noreferrer"
           >
             <span className="homeIcon">
@@ -226,6 +227,9 @@ const Product = () => {
                   <div class="dorik-text dorik-text-3q3j7rrw ">
                     <p>
                     {t('productFAQEntryParagraph')}
+                    <span className="homeIcon">
+                    <a style={{display:"flex",justifyContent:"center"}} href="/istek/contact"><FontAwesomeIcon icon={faAngleRight} shake color='white' /></a>
+                  </span>
                     </p>
                   </div>
                 </div>
@@ -234,62 +238,42 @@ const Product = () => {
                 <div class="column-inner dorik-column-n4vsrfs2  3/5">
                   <div class="dorik-accordion-exws77h5">
                     <details>
-                      <summary>How to install solar panel's on roof?</summary>
+                      <summary>{t('faqQuestion1')}</summary>
                       <div class="details-content" path="accordions/items/0/paragraph">
                         <p>
-                          I know this is the final release but can we add more features? there is
-                          too much white space can you make it faster? nor that's great, but can you
-                          make it work for ie 2 please, I want you to take it to the next level, for
-                          could you solutionize that for me mmm, exactly like that, but
-                          different.&nbsp;
+                        {t('faqAnswer1')}&nbsp;
                         </p>
                       </div>
                     </details>
                     <details>
-                      <summary>Where I can install wind energy station?</summary>
+                      <summary>{t('faqQuestion2')}</summary>
                       <div class="details-content" path="accordions/items/1/paragraph">
                         <p>
-                          I know this is the final release but can we add more features? there is
-                          too much white space can you make it faster? nor that's great, but can you
-                          make it work for ie 2 please, I want you to take it to the next level, for
-                          could you solutionize that for me mmm, exactly like that, but
-                          different.&nbsp;
+                        {t('faqAnswer2')}&nbsp;
                         </p>
                       </div>
                     </details>
                     <details>
-                      <summary>What are the challenges of renewable energy?</summary>
+                      <summary>{t('faqQuestion3')}</summary>
                       <div class="details-content" path="accordions/items/2/paragraph">
                         <p>
-                          I know this is the final release but can we add more features? there is
-                          too much white space can you make it faster? nor that's great, but can you
-                          make it work for ie 2 please, I want you to take it to the next level, for
-                          could you solutionize that for me mmm, exactly like that, but
-                          different.&nbsp;
+                        {t('faqAnswer3')}&nbsp;
                         </p>
                       </div>
                     </details>
                     <details>
-                      <summary>How can renewable energy be supported?</summary>
+                      <summary>{t('faqQuestion4')}</summary>
                       <div class="details-content" path="accordions/items/3/paragraph">
                         <p>
-                          I know this is the final release but can we add more features? there is
-                          too much white space can you make it faster? nor that's great, but can you
-                          make it work for ie 2 please, I want you to take it to the next level, for
-                          could you solutionize that for me mmm, exactly like that, but
-                          different.&nbsp;
+                        {t('faqAnswer4')}&nbsp;
                         </p>
                       </div>
                     </details>
                     <details>
-                      <summary>Why is renewable energy not used?</summary>
+                      <summary>{t('faqQuestion5')}</summary>
                       <div class="details-content" path="accordions/items/4/paragraph">
                         <p>
-                          I know this is the final release but can we add more features? there is
-                          too much white space can you make it faster? nor that's great, but can you
-                          make it work for ie 2 please, I want you to take it to the next level, for
-                          could you solutionize that for me mmm, exactly like that, but
-                          different.&nbsp;
+                        {t('faqAnswer5')}&nbsp;
                         </p>
                       </div>
                     </details>

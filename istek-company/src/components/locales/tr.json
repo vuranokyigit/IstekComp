@@ -92,6 +92,24 @@
     "footerContactButton": "Bizimle İletişime Geçin",
     "footerCopyRightText": "Tüm Hakları Saklıdır",
     "footerPrivacy": "Gizlilik ve Politika",
-    "maintenanceMainTitle": "BAKIM"
-
+    "maintenanceMainTitle": "BAKIM",
+    "faqQuestion1":"Donma Sorunlarını Nasıl Önlerim?",
+    "faqAnswer1":"Kapalı devre sistemlerde antifrizli sıvılar kullanmak ve iyi bir yalıtım sağlamak gerekir. Açık devre sistemlerde ise, suyun donmaması için dolaşımın sürekli olması önemlidir.",
+    "faqQuestion2":"Kireçlenme ve Tortu Birikimini Nasıl Önlerim?",
+    "faqAnswer2":"Su yumuşatma cihazlarının kullanımı veya düzenli temizleme yapılmalıdır",
+    "faqQuestion3":"Hava Koşullarına Bağımlılık Nasıl Önlenebilir?",
+    "faqAnswer3":"Hibrit sistemler (örneğin, elektrikli destekleyici ısıtıcı) kullanmak.",
+    "faqQuestion4":"İlk Kurulum Maliyeti Yüksek mi?",
+    "faqAnswer4":"Uzun vadeli enerji tasarrufu ile maliyet amorti edilir. Ayrıca, teşvik ve sübvansiyonlardan yararlanılabilir.",
+    "faqQuestion5":"Isı Kaybı Sorunu Nasıl Çözülür?",
+    "faqAnswer5":"Kaliteli izolasyon malzemeleri kullanmak ve sistem bileşenlerini düzenli kontrol etmek.",
+    "boilerTitle": "DİK BOYLER",
+    "ourServicesTitle": "Hizmetlerimiz ve Yeteneklerimiz",
+  "ourServicesParagraph": "Uzmanlığımız, ihtiyaçlarınıza göre özelleştirilmiş yüksek kaliteli güneş kolektörleri, su ısıtıcıları ve tam güneş enerjisi sistemleri sunmaktır. Kurulumdan düzenli bakıma ve satış sonrası destek hizmetlerine kadar, enerji çözümlerinizin verimli ve sürdürülebilir bir şekilde çalışmasını sağlıyoruz.",
+  "ourServicesCard1Title": "Satış",
+    "ourServicesCard1Paragraph": "İhtiyaçlarına cevap verecek şekilde uyarlayacağımız güneş kollektörü, boyler ve güneş enerjisi sistemlerimizi bütün adımlarda size maksimum desteği sağlayarak ulaştırıyoruz.",
+    "ourServicesCard2Title": "Anahtar Teslim Projeler",
+    "ourServicesCard2Paragraph": "Proje planlaması ve montaj hizmetleri ile her adımda yanındayız.",
+    "ourServicesCard3Title": "Satış Sonrası",
+    "ourServicesCard3Paragraph": "Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip ile hizmetinizdeyiz."
   }

@@ -94,5 +94,26 @@
     "footerContactButton": "Contact Us",
     "footerCopyRightText": "All Right Reserved By",
     "footerPrivacy": "Privacy & Policy",
-    "maintenanceMainTitle": "MAINTENANCE"
+    "maintenanceMainTitle": "MAINTENANCE",
+    "faqQuestion1": "How Can I Prevent Freezing Issues?",
+    "faqAnswer1": "In closed-loop systems, antifreeze liquids should be used, and proper insulation must be provided. In open-loop systems, continuous circulation of water is essential to prevent freezing.",
+    "faqQuestion2": "How Can I Prevent Lime and Sediment Buildup?",
+    "faqAnswer2": "Water softening devices should be used, or regular cleaning should be done.",
+    "faqQuestion3": "How Can Dependence on Weather Conditions be Prevented?",
+    "faqAnswer3": "Hybrid systems (such as electric support heaters) can be used.",
+    "faqQuestion4": "Is the Initial Installation Cost High?",
+    "faqAnswer4": "The cost is amortized through long-term energy savings. Additionally, incentives and subsidies can be utilized.",
+    "faqQuestion5": "How Can Heat Loss Issues Be Solved?",
+    "faqAnswer5": "Use quality insulation materials and regularly check the system components.",
+    "boilerTitle": "VERTICAL BOILER",
+    "ourServicesTitle": "Our Services & Capability",
+    "ourServicesParagraph": "Our expertise lies in providing top-quality solar collectors, water boilers, and complete solar energy systems tailored to your needs.  From installation to regular maintenance and after-sales support, we ensure your energy solutions run efficiently and sustainably.",
+    "ourServicesCard1Title": "Sales",
+  "ourServicesCard1Paragraph": "We deliver our solar collectors, boilers, and solar energy systems, tailored to meet your needs, providing maximum support at every step.",
+  "ourServicesCard2Title": "Turnkey Projects",
+  "ourServicesCard2Paragraph": "We are with you at every step with project planning and installation services.",
+  "ourServicesCard3Title": "After-Sales",
+  "ourServicesCard3Paragraph": "We are at your service with our technical team to support you with all issues, both under and outside of warranty."
+    
+
   }
