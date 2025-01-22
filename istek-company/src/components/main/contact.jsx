@@ -25,115 +25,84 @@ const Contact = () => {
         </div>
       </section>
 
-      <section>
-        <div className="row clearfix" style={{ minHeight: '100px' }}>
-          {/* Adres */}
-          <div
-            className="info-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated"
-            data-wow-delay="0ms"
-            data-wow-duration="2000ms"
-            style={{
-              visibility: 'visible',
-              animationDuration: '2000ms',
-              animationDelay: '0ms',
-              animationName: 'fadeInUp',
-            }}
-          >
-            <div className="inner">
-              <div className="icon">
-                <FontAwesomeIcon icon={faLocationDot} size="xl" />
+      <section
+        style={{
+          backgroundColor: 'white',
+          marginTop: '-66px',
+          borderRadius: '50px 50px 50px 50px',
+          paddingTop: '5rem',
+          paddingBottom: '5rem',
+          position: 'relative',
+          zIndex: '1',
+        }}
+      >
+        <div class="container2" style={{ justifyContent: 'center', marginTop: '50px' }}>
+          <div class="card" style={{ height: '300px', minWidth: '300px' }}>
+            <div class="box" style={{alignItems:"flex-start"}}>
+              <div class="content">
+                <span>
+                  <FontAwesomeIcon
+                    icon={faWhatsapp}
+                    size="2xl"
+                    style={{ marginBottom: '30px', marginTop: '20px' }}
+                  />
+                </span>
+
+                <h3></h3>
+                <p style={{fontSize:"larger"}}>
+                <a href="https://web.whatsapp.com/+905367745759">+905367745759</a>
+                </p>
               </div>
-              <ul className="info">
-                <li>
-                  Şirinyalı Mah. 1547 Sk. No: 2A/9
-                  <br />
-                  Muratpaşa / Antalya / TÜRKİYE
-                </li>
-              </ul>
+            </div>
+          </div>
+          <div class="card" style={{ height: '300px', minWidth: '300px' }}>
+            <div class="box" style={{alignItems:"flex-start"}}>
+              <div class="content">
+                <span>
+                  <FontAwesomeIcon
+                    icon={faLocationDot}
+                    size="2xl"
+                    style={{ marginBottom: '30px', marginTop: '20px' }}
+                  />
+                </span>
+
+                <h3></h3>
+                <p style={{fontSize:"larger"}}>
+                Şirinyalı Mah. 1547 Sk. No: 2A/9 Muratpaşa / Antalya / TÜRKİYE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card" style={{ height: '300px', minWidth: '300px' }}>
+            <div class="box" style={{alignItems:"flex-start"}}>
+              <div class="content">
+                <span>
+                  <FontAwesomeIcon
+                    icon={faPhone}
+                    size="2xl"
+                    style={{ marginBottom: '30px', marginTop: '20px' }}
+                  />
+                </span>
+
+                <h3></h3>
+                <p style={{alignItems:"center",fontSize:"larger"}}><a href="tel:+90 242 323 22 13 <br> +90 536 774 57 59">+90 242 323 22 13 <br/> +90 536 774 57 59</a></p>
+              </div>
             </div>
           </div>
 
-          {/* Telefon */}
-          <div
-            className="info-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated"
-            data-wow-delay="300ms"
-            data-wow-duration="2000ms"
-            style={{
-              visibility: 'visible',
-              animationDuration: '2000ms',
-              animationDelay: '300ms',
-              animationName: 'fadeInUp',
-            }}
-          >
-            <div className="inner">
-              <div className="icon">
-                <FontAwesomeIcon icon={faPhone} size="xl" />
+          <div class="card" style={{ height: '300px', minWidth: '300px' }}>
+            <div class="box" style={{alignItems:"flex-start"}}>
+              <div class="content">
+                <span>
+                  <FontAwesomeIcon
+                    icon={faEnvelope} 
+                    size="2xl"
+                    style={{ marginBottom: '30px', marginTop: '20px' }}
+                  />
+                </span>
+                <h3></h3>
+                <p style={{fontSize:"larger"}}><a href="mailto:istek@istek.com.tr">istek@istek.com.tr</a></p>
               </div>
-              <ul className="info">
-                <li>
-                  +90 242 323 22 13
-                  <br />
-                  +90 536 774 57 59
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Email */}
-          <div
-            className="info-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated"
-            data-wow-delay="600ms"
-            data-wow-duration="2000ms"
-            style={{
-              visibility: 'visible',
-              animationDuration: '3000ms',
-              animationDelay: '600ms',
-              animationName: 'fadeInUp',
-            }}
-          >
-            <div className="inner">
-              <div className="icon">
-                <FontAwesomeIcon icon={faEnvelope} size="xl" />
-              </div>
-              <ul className="info">
-                <li>
-                  <a
-                    href="mailto:istek@istek.com.tr"
-                    style={{ textDecoration: 'none', color: 'white', cursor: 'pointer' }}
-                  >
-                    istek@istek.com.tr
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Whatsapp */}
-          <div
-            className="info-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated"
-            data-wow-delay="300ms"
-            data-wow-duration="2000ms"
-            style={{
-              visibility: 'visible',
-              animationDuration: '4000ms',
-              animationDelay: '300ms',
-              animationName: 'fadeInUp',
-            }}
-          >
-            <div className="inner">
-              <div className="icon">
-                <FontAwesomeIcon icon={faWhatsapp} size="xl" />
-              </div>
-              <ul className="info">
-                <li>
-                  <a
-                    href="https://web.whatsapp.com/+905367745759"
-                    style={{ textDecoration: 'none', color: 'white', cursor: 'pointer' }}
-                  >
-                    +905367745759
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

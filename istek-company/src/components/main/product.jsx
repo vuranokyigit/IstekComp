@@ -8,7 +8,7 @@ const Product = () => {
   return (
     <>
       <section
-        style={{ backgroundImage: 'url("/img/gnsmanzr.jpg")' }}
+        style={{ backgroundImage: 'url("/img/products_copy.jpg")' }}
         className="home-section section-hero image-bg overlay-2 slanted"
         id="home-section"
       >

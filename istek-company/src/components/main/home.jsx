@@ -72,8 +72,8 @@ const Home = () => {
                 />
               </div>
               <div className="col-lg-5 ml-auto">
-                <h1 className="section-title mb-3">Doğanın enerjisini sizinle buluşturuyoruz.</h1>
-                <p>Güneşin gücünü yakalayarak çevre dostu ve ekonomik enerji çözümleri sunuyoruz. Termal güneş kollektörlerinden enerji sistemlerine, yurtiçinde satış ve montaj hizmeti sağlarken, ürünlerimizi dünyanın dört bir yanına ihraç ederek küresel enerji dönüşümüne katkıda bulunuyoruz.</p>
+                <h1 className="section-title mb-3">{t('energyNaturalTitle')}</h1>
+                <p>{t('energyNaturalParagraph')}</p>
               </div>
             </div>
           </div>
@@ -218,14 +218,18 @@ const Home = () => {
           zIndex: '1',
         }}
       >
-        <h1 style={{ color: 'white' }}>Our Recent Projects</h1>
-        <h6 style={{ color: 'white', fontWeight: 'lighter' }}>
-          Our expertise lies in providing top-quality solar collectors, water boilers, <br /> and
-          complete solar energy systems tailored to your needs. <br />
-          From installation to regular maintenance and after-sales support,
-          <br /> we ensure your energy solutions run efficiently and sustainably.
+        <h1 style={{ color: 'white' }}>{t('recentProjectsTitle')}</h1>
+        <h6  style={{
+            color: 'white',
+            fontWeight: 'lighter',
+            padding: '30px',
+            fontSize: 'smaller',
+            width: '50%',
+            margin: 'auto',
+          }}>
+         {t('recentProjectsParagraph')}
         </h6>
-        <div className="container2">
+        <div className="container2" id='ourRecentProject'>
           <div className="col-lg-6 mb-5 mb-lg-0">
             <img
               src="/img/gunes_kollektoru.jpg"
@@ -271,13 +275,13 @@ const Home = () => {
         >
           <div>
             <div className="uk-heading-line uk-text-center fw-5 fs-20">
-              <span style={{ color: 'black' }}>Güneş Enerjisi Toplu Sistemi Hesaplama</span>
+              <span style={{ color: 'black' }}></span>
             </div>
             <div className="uk-form-horizontal uk-margin-large">
               {/* Yapı Tipi Seçimi */}
               <div className="uk-margin">
                 <label className="uk-form-label" htmlFor="yapiTipi" style={{ color: 'black' }}>
-                  Yapı Tipi:
+                  {t('yapiTipi')}:
                 </label>
                 <div className="uk-form-controls">
                   <select
@@ -286,20 +290,20 @@ const Home = () => {
                     value={yapiTipi}
                     onChange={e => setYapiTipi(parseFloat(e.target.value))}
                   >
-                    <option value={7}>Spor Salonu</option>
-                    <option value={15}>Hastane</option>
-                    <option value={18.5}>Apartman Lüx</option>
-                    <option value={5}>Apartman</option>
-                    <option value={20}>Öğrenci Yurdu</option>
-                    <option value={10}>Otel (2-3 Yıldız)</option>
-                    <option value={10}>Otel (4-7 Yıldız)</option>
-                    <option value={10}>Pansiyon (Misafirhane)</option>
-                    <option value={20}>Fabrika</option>
-                    <option value={10}>Lokanta</option>
-                    <option value={10}>Havuz</option>
-                    <option value={20}>Okul</option>
-                    <option value={10}>Büro / İşyeri</option>
-                    <option value={10}>Müstakil Konut</option>
+                    <option value={7}>{t('picklistSporSalonu')}</option>
+                    <option value={15}>{t('picklistHastane')}</option>
+                    <option value={18.5}>{t('picklistApartmanLux')}</option>
+                    <option value={5}>{t('picklistApartman')}</option>
+                    <option value={20}>{t('picklistYurt')}</option>
+                    <option value={10}>{t('picklistOtel1')}</option>
+                    <option value={10}>{t('picklistOtel2')}</option>
+                    <option value={10}>{t('picklistPansiyon')}</option>
+                    <option value={20}>{t('picklistFabrika')}</option>
+                    <option value={10}>{t('picklistLokanta')}</option>
+                    <option value={10}>{t('picklistHavuz')}</option>
+                    <option value={20}>{t('picklistOkul')}</option>
+                    <option value={10}>{t('picklistBuro')}</option>
+                    <option value={10}>{t('picklistVilla')}</option>
                   </select>
                 </div>
               </div>
@@ -307,7 +311,7 @@ const Home = () => {
               {/* Kişi Sayısı Girişi */}
               <div className="uk-margin">
                 <label className="uk-form-label" htmlFor="kisiSayisi" style={{ color: 'black' }}>
-                  Yapıda Bulunan Kişi Sayısı:
+                {t('yapıdaBulunanKişiSayısı')}:
                 </label>
                 <div className="uk-form-controls">
                   <input
@@ -338,7 +342,7 @@ const Home = () => {
                       transition: '0.5s',
                     }}
                   >
-                    Hesapla
+                    {t('hesaplaButonu')}
                   </button>
                 </div>
               </div>
@@ -346,7 +350,7 @@ const Home = () => {
               {/* Sonuç Alanları */}
               <div className="uk-margin">
                 <label className="uk-form-label" htmlFor="boylerSonuc" style={{ color: 'black' }}>
-                  Boyler İhtiyacı:
+                {t('BoylerNeed')}:
                 </label>
                 <div className="uk-form-controls">
                   <input
@@ -364,7 +368,7 @@ const Home = () => {
                   htmlFor="kollektorlSonuc"
                   style={{ color: 'black' }}
                 >
-                  Kollektör Large:
+                  {t('KollektorL')}:
                 </label>
                 <div className="uk-form-controls">
                   <input
@@ -382,7 +386,7 @@ const Home = () => {
                   htmlFor="kollektorsSonuc"
                   style={{ color: 'black' }}
                 >
-                  Kollektör Small:
+                  {t('KollektorS')}:
                 </label>
                 <div className="uk-form-controls">
                   <input

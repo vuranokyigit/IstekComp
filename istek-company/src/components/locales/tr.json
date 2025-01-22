@@ -111,5 +111,41 @@
     "ourServicesCard2Title": "Anahtar Teslim Projeler",
     "ourServicesCard2Paragraph": "Proje planlaması ve montaj hizmetleri ile her adımda yanındayız.",
     "ourServicesCard3Title": "Satış Sonrası",
-    "ourServicesCard3Paragraph": "Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip ile hizmetinizdeyiz."
+    "ourServicesCard3Paragraph": "Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip ile hizmetinizdeyiz.",
+    "energyNaturalTitle": "Doğanın Enerjisini Sizlerle Buluşturuyoruz",
+    "energyNaturalParagraph": "Güneşin gücünü yakalayarak çevre dostu ve ekonomik enerji çözümleri sunuyoruz. Termal güneş kollektörlerinden enerji sistemlerine, yurtiçinde satış ve montaj hizmeti sağlarken, ürünlerimizi dünyanın dört bir yanına ihraç ederek küresel enerji dönüşümüne katkıda bulunuyoruz.",
+    "recentProjectsTitle": "Son Projelerimiz",
+  "recentProjectsParagraph": "Konut, ticari ve endüstriyel olmak üzere çeşitli sektörlerde birçok projeyi tamamlamış olmaktan gurur duyuyoruz. Projelerimiz, müşterilerimizin özel ihtiyaçlarını karşılamak üzere tasarlanmış, verimli ve sürdürülebilir enerji çözümleri sunmaktadır.",
+  "yapiTipi": "Yapı Tipi",
+  "picklistSporSalonu":"Spor Salonu",
+  "picklistHastane":"Hastane",
+  "picklistApartmanLux":"Apartman (Lüks)",
+  "picklistApartman":"Apartman",
+  "picklistYurt":"Öğrenci Yurdu",
+  "picklistOtel1":"Otel (2-3 Yıldız)",
+  "picklistOtel2":"Otel (4-7 Yıldız)",
+  "picklistPansiyon":"Pansiyon (Misafirhane)",
+  "picklistFabrika":"Fabrika",
+  "picklistLokanta":"Lokanta",
+  "picklistHavuz":"Havuz",
+  "picklistOkul":"Okul",
+  "picklistBuro":"Büro / İş Yeri",
+  "picklistVilla":"Müstakil Konut (Villa)",
+  "yapıdaBulunanKişiSayısı":"Yapıda Bulunan Kişi Sayısı",
+  "hesaplaButonu":"Hesapla",
+  "BoylerNeed":"Boyler İhtiyacı",
+  "KollektorL":"Kollektör Büyük",
+  "KollektorS":"Kollektör Küçük"
+  
+
+
+
+
+
+
+
+
+
+
+
   }

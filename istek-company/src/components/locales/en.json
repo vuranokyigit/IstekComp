@@ -113,7 +113,31 @@
   "ourServicesCard2Title": "Turnkey Projects",
   "ourServicesCard2Paragraph": "We are with you at every step with project planning and installation services.",
   "ourServicesCard3Title": "After-Sales",
-  "ourServicesCard3Paragraph": "We are at your service with our technical team to support you with all issues, both under and outside of warranty."
+  "ourServicesCard3Paragraph": "We are at your service with our technical team to support you with all issues, both under and outside of warranty.",
+  "energyNaturalTitle": "We Bring the Energy of Nature to You",
+  "energyNaturalParagraph": "We harness the power of the sun to provide eco-friendly and economical energy solutions. From thermal solar collectors to energy systems, we offer domestic sales and installation services while exporting our products worldwide, contributing to the global energy transition.",
+  "recentProjectsTitle": "Our Recent Projects",
+  "recentProjectsParagraph": "We are proud to have completed numerous projects in various sectors, including residential, commercial, and industrial. Our projects are designed to meet the specific needs of our customers, providing efficient and sustainable energy solutions.",
+  "yapiTipi": "Building Type",
+  "picklistSporSalonu": "Gym",
+  "picklistHastane": "Hospital",
+  "picklistApartmanLux": "Apartment (Luxury)",
+  "picklistApartman": "Apartment",
+  "picklistYurt": "Student Dormitory",
+  "picklistOtel1": "Hotel (2-3 Stars)",
+  "picklistOtel2": "Hotel (4-7 Stars)",
+  "picklistPansiyon": "Guesthouse (Hostel)",
+  "picklistFabrika": "Factory",
+  "picklistLokanta": "Restaurant",
+  "picklistHavuz": "Pool",
+  "picklistOkul": "School",
+  "picklistBuro": "Office / Workplace",
+  "picklistVilla": "Detached House (Villa)",
+  "yapıdaBulunanKişiSayısı": "Number of People in the Building",
+  "hesaplaButonu": "Calculate",
+  "BoylerNeed": "Boiler Requirement",
+  "KollektorL": "Large Collector",
+  "KollektorS": "Small Collector"
     
 
   } 
