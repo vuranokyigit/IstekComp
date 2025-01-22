@@ -48,7 +48,7 @@ const Contact = () => {
                   />
                 </span>
 
-                <h3></h3>
+                
                 <p style={{fontSize:"larger"}}>
                 <a href="https://web.whatsapp.com/+905367745759">+905367745759</a>
                 </p>
@@ -66,7 +66,7 @@ const Contact = () => {
                   />
                 </span>
 
-                <h3></h3>
+             
                 <p style={{fontSize:"larger"}}>
                 Şirinyalı Mah. 1547 Sk. No: 2A/9 Muratpaşa / Antalya / TÜRKİYE
                 </p>
@@ -84,7 +84,7 @@ const Contact = () => {
                   />
                 </span>
 
-                <h3></h3>
+                
                 <p style={{alignItems:"center",fontSize:"larger"}}><a href="tel:+90 242 323 22 13 <br> +90 536 774 57 59">+90 242 323 22 13 <br/> +90 536 774 57 59</a></p>
               </div>
             </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                     style={{ marginBottom: '30px', marginTop: '20px' }}
                   />
                 </span>
-                <h3></h3>
+                
                 <p style={{fontSize:"larger"}}><a href="mailto:istek@istek.com.tr">istek@istek.com.tr</a></p>
               </div>
             </div>

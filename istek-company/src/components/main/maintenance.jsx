@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileInvoice,faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import { faFileInvoice} from '@fortawesome/free-solid-svg-icons';
 
 function Projects() {
     const { t } = useTranslation();
