@@ -15,6 +15,22 @@ const Footer = () => {
                 </a>
                 <div className="container">
                     <div className="row mb-3" id="footerInfoSection">
+                       
+                        <div className="col-6 col-md-4 mb-4 mb-md-0">
+                            <h3 style={{textTransform:"uppercase"}}>{t('footerCompanyTitle')}</h3>
+                            <ul  className="list-unstyled">
+                                <li>
+                                    <a href="/istek/about">{t('footerCompanyLink1')}</a>
+                                </li>
+                                <li>
+                                    <a href="/istek/product">{t('footerCompanyLink2')}</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/istek/about">{t('footerCompanyLink3')}</a>
+                                </li>
+                            </ul>
+                        </div>
                         <div className="col-6 col-md-4 mb-4 mb-md-0">
                             <h3 style={{textTransform:"uppercase"}}>{t('footerProductsTitle')}</h3>
                             <ul className="list-unstyled">
@@ -27,24 +43,10 @@ const Footer = () => {
                                 <li>
                                     <a href="/istek/product">{t('footerProducts3')}</a>
                                 </li>
+                                <li>
+                                    <a href="/istek/product">{t('footerCompanyLink4')}</a>
+                                </li>
                                
-                            </ul>
-                        </div>
-                        <div className="col-6 col-md-4 mb-4 mb-md-0">
-                            <h3 style={{textTransform:"uppercase"}}>{t('footerCompanyTitle')}</h3>
-                            <ul  className="list-unstyled">
-                                <li>
-                                    <a href="/istek/about">{t('footerCompanyLink1')}</a>
-                                </li>
-                                <li>
-                                    <a href="/istek/product">{t('footerCompanyLink2')}</a>
-                                </li>
-                                <li>
-                                    <a href="/istek/maintenance">{t('footerCompanyLink4')}</a>
-                                </li>
-                                <li>
-                                    <a href="/istek/contact">{t('footerCompanyLink3')}</a>
-                                </li>
                             </ul>
                         </div>
 

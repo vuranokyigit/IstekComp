@@ -11,9 +11,12 @@
     "homeAboutUsSecondTitle": "2019 Yılından İtİbaren Yenİ Standartlar Belİrlİyoruz",
     "homeAboutUsParagraph": "2019 yılında kurulan Evacare, sıkıştırılmış elastomerik bileşenlerin üretimiyle yolculuğuna başladı. Kısa bir süre içinde, çapraz bağlı EVA malzemeleri gibi çığır açan ürünlerin üretimine yönelerek, ayakkabı endüstrisinde taban üretiminde vazgeçilmez bir tedarikçi haline geldik.",
     "homeAboutUsLink": "Daha Fazla Bilgi İçin",
-    "homeCounterBrands": "Yılların Marka Gücü",
-    "homeCounterArea": "Kıtada İhracat Kapasitesine Ulaşma",
-    "homeCounterProject": "Tamamlanmış Proje",
+    "homeCounterBrandsT": "Yıl",
+    "homeCounterAreaT": " Kıta",
+    "homeCounterProjectT": "Proje",
+    "homeCounterBrands": "Marka Gücü",
+    "homeCounterArea": "İhracat Kapasitesi",
+    "homeCounterProject": "Müşteri Memnuniyeti",
     "homeCounterFactoryArea": "Fabrika",
     "homeTableTitleSoles": "Tabanlar",
     "homeTableBodySoles": "Hafif, esnek, aşınmaya dayanıklı, yumuşak dokunuşlu",
@@ -83,12 +86,12 @@
     "footerProducts1": "Güneş Kollektörleri",
     "footerProducts2": "Boyler",
     "footerProducts3": "Güneş Enerjisi Sistemleri",
-    "footerCompanyTitle": "Şİrket",
+    "footerCompanyTitle": "Şirket",
     "footerCompanyLink1": "Hakkımızda",
-    "footerCompanyLink2": "Ürünler",
-    "footerCompanyLink3": "İletişim",
+    "footerCompanyLink2": "Vizyon & Misyon",
+    "footerCompanyLink3": "Yönetim",
     "footerCompanyLink4": "Bakım",
-    "footerContactTitle": "BİZİMLE İLETİŞİME GEÇİN",
+    "footerContactTitle": " İLETİŞİM ",
     "footerContactButton": "Bizimle İletişime Geçin",
     "footerCopyRightText": "Tüm Hakları Saklıdır",
     "footerPrivacy": "Gizlilik ve Politika",
@@ -104,16 +107,16 @@
     "faqQuestion5":"Isı Kaybı Sorunu Nasıl Çözülür?",
     "faqAnswer5":"Kaliteli izolasyon malzemeleri kullanmak ve sistem bileşenlerini düzenli kontrol etmek.",
     "boilerTitle": "DİK BOYLER",
-    "ourServicesTitle": "Hizmetlerimiz ve Yeteneklerimiz",
-  "ourServicesParagraph": "Uzmanlığımız, ihtiyaçlarınıza göre özelleştirilmiş yüksek kaliteli güneş kolektörleri, su ısıtıcıları ve tam güneş enerjisi sistemleri sunmaktır. Kurulumdan düzenli bakıma ve satış sonrası destek hizmetlerine kadar, enerji çözümlerinizin verimli ve sürdürülebilir bir şekilde çalışmasını sağlıyoruz.",
+    "ourServicesTitle": "Hizmetlerimiz & Yetkinliklerimiz",
+  "ourServicesParagraph": "Uzmanlık alanımız, ihtiyaçlarınıza özel olarak tasarlanmış yüksek kaliteli güneş kolektörleri, su ısıtıcıları ve tam kapsamlı güneş enerjisi sistemleri sunmaktır. Kurulumdan düzenli bakıma ve satış sonrası destek hizmetlerine kadar, enerji çözümlerinizin verimli ve sürdürülebilir bir şekilde çalışmasını garanti ediyoruz.",
   "ourServicesCard1Title": "Satış",
-    "ourServicesCard1Paragraph": "İhtiyaçlarına cevap verecek şekilde uyarlayacağımız güneş kollektörü, boyler ve güneş enerjisi sistemlerimizi bütün adımlarda size maksimum desteği sağlayarak ulaştırıyoruz.",
+    "ourServicesCard1Paragraph": "İhtiyaçlarınıza özel olarak uyarlayacağımız güneş kolektörleri, boylerler ve güneş enerjisi sistemlerini, sürecin her aşamasında size maksimum destek sağlayarak sunuyoruz.",
     "ourServicesCard2Title": "Anahtar Teslim Projeler",
     "ourServicesCard2Paragraph": "Proje planlaması ve montaj hizmetleri ile her adımda yanındayız.",
     "ourServicesCard3Title": "Satış Sonrası",
-    "ourServicesCard3Paragraph": "Garanti kapsamında ve dışında bütün sorunlarınızda destek olacak teknik ekip ile hizmetinizdeyiz.",
+    "ourServicesCard3Paragraph": "Garanti kapsamında veya dışında karşılaşabileceğiniz tüm sorunlarda, uzman teknik ekibimizle yanınızdayız.",
     "energyNaturalTitle": "Doğanın Enerjisini Sizlerle Buluşturuyoruz",
-    "energyNaturalParagraph": "Güneşin gücünü yakalayarak çevre dostu ve ekonomik enerji çözümleri sunuyoruz. Termal güneş kollektörlerinden enerji sistemlerine, yurtiçinde satış ve montaj hizmeti sağlarken, ürünlerimizi dünyanın dört bir yanına ihraç ederek küresel enerji dönüşümüne katkıda bulunuyoruz.",
+    "energyNaturalParagraph": "Güneşin gücünü yakalayarak çevre dostu ve ekonomik enerji çözümleri sunuyoruz. Termal güneş kollektörlerinden enerji sistemlerine kadar uzanan geniş ürün yelpazemizle, satış, kurulum ve satış sonrası hizmetleri sağlıyoruz. Ayrıca, ürünlerimizi dünyanın dört bir yanına ihraç ederek küresel enerji dönüşümüne katkıda bulunuyoruz.",
     "recentProjectsTitle": "Son Projelerimiz",
   "recentProjectsParagraph": "Konut, ticari ve endüstriyel olmak üzere çeşitli sektörlerde birçok projeyi tamamlamış olmaktan gurur duyuyoruz. Projelerimiz, müşterilerimizin özel ihtiyaçlarını karşılamak üzere tasarlanmış, verimli ve sürdürülebilir enerji çözümleri sunmaktadır.",
   "yapiTipi": "Yapı Tipi",
@@ -134,18 +137,8 @@
   "yapıdaBulunanKişiSayısı":"Yapıda Bulunan Kişi Sayısı",
   "hesaplaButonu":"Hesapla",
   "BoylerNeed":"Boyler İhtiyacı",
-  "KollektorL":"Kollektör Büyük",
-  "KollektorS":"Kollektör Küçük"
-  
-
-
-
-
-
-
-
-
-
-
+  "KollektorL":"Istek Cu+ Büyük",
+  "KollektorS":"Istek Cu+ Küçük",
+  "solarEnergySystemTitle": "Güneş Enerjisi Sistemleri Hesaplama Aracı"
 
   }

@@ -36,7 +36,7 @@ const MyNavbar = () => {
                     <div id="firstChild"><Nav.Link  style={{color:"#ffffff"}} href="/">{t('navbarHome')}</Nav.Link></div>
                     <div id="secondChild"><Nav.Link  style={{color:"#ffffff"}} href="/istek/about">{t('navbarAboutUs')}</Nav.Link></div>
                     <div id="thirdChild"><Nav.Link  style={{color:"#ffffff"}} href="/istek/product">{t('navbarProduct')}</Nav.Link></div>
-                    <div id="fifthChild"><Nav.Link  style={{color:"#ffffff"}} href="/istek/maintenance">{t('navbarMaintenance')}</Nav.Link></div>
+                    {/* <div id="fifthChild"><Nav.Link  style={{color:"#ffffff"}} href="/istek/maintenance">{t('navbarMaintenance')}</Nav.Link></div> */}
                     <div  id="fourthChild"><Nav.Link style={{color:"#ffffff"}} href="/istek/contact">{t('navbarContact')}</Nav.Link></div>
                 </Nav>
                 </div>

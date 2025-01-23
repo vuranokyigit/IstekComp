@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileCircleCheck, faTrophy, faGlobe, faCartShopping, faHammer,faTty } from '@fortawesome/free-solid-svg-icons';
+import { faSolarPanel, faAward, faEarthAmericas, faCartShopping, faKey,faTty } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -83,10 +83,10 @@ const Home = () => {
       id="counterMainDiv"
     >
       <div className="container" id="counterCont">
-        {/* Production Counter */}
+        {/* BRANDS Counter */}
         <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
           <span className="homeIcon">
-            <FontAwesomeIcon icon={faTrophy} size="2xl" />
+            <FontAwesomeIcon icon={faAward} size="2xl" />
           </span>
           <div
             className="d-flex align-items-center justify-content-center mb-2"
@@ -94,16 +94,16 @@ const Home = () => {
           >
             <span className="icon-line-mobile mr-3" />
             <span className="number">
-              <CountUp start={0} end={40} duration={2.5} />+
+              <CountUp start={0} end={40} duration={2.5} />+<span style={{fontSize:"large"}}>{t('homeCounterBrandsT')}</span>
             </span>
           </div>
           <span className="caption">{t('homeCounterBrands')}</span>
         </div>
 
-        {/* Workers Counter */}
+        {/* GLOBAL Counter */}
         <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
           <span className="homeIcon">
-            <FontAwesomeIcon icon={faGlobe} size="2xl" />
+            <FontAwesomeIcon icon={faEarthAmericas} size="2xl" />
           </span>
           <div
             className="d-flex align-items-center justify-content-center mb-2"
@@ -111,23 +111,23 @@ const Home = () => {
           >
             <span className="icon-line-lightbulb mr-3" />
             <span className="number">
-              <CountUp start={0} end={7} duration={2.5} />
+              <CountUp start={0} end={7} duration={2.5} /><span style={{fontSize:"large"}}>{t('homeCounterAreaT')}</span>
             </span>
           </div>
           <span className="caption">{t('homeCounterArea')}</span>
         </div>
 
-        {/* Factory Area Counter */}
+        {/* PROJECT Counter */}
         <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
           <span className="homeIcon">
-            <FontAwesomeIcon icon={faFileCircleCheck} size="2xl" />
+            <FontAwesomeIcon icon={faSolarPanel} size="2xl" />
           </span>
           <div
             className="d-flex align-items-center justify-content-center mb-2"
             id="infoNumber"
           >
-            <span className="number">
-              <CountUp start={0} end={1000} duration={2.5} />+
+            <span className="number" >
+              <CountUp start={0} end={1000} duration={2.5} separator=""/>+<span style={{fontSize:"large"}}>{t('homeCounterProjectT')}</span>
             </span>
           </div>
           <span className="caption">
@@ -178,7 +178,7 @@ const Home = () => {
               <div class="content">
                 <span>
                   <FontAwesomeIcon
-                    icon={faHammer}
+                    icon={faKey}
                     size="2xl"
                     style={{ marginBottom: '30px', marginTop: '20px' }}
                   />
@@ -268,7 +268,7 @@ const Home = () => {
         }}
         id="solarEnergySystemCalculation"
       >
-        <h1 style={{ color: 'black' }}>Solar Energy System Calculation</h1>
+        <h1 style={{ color: 'black' }}>{t('solarEnergySystemTitle')}</h1>
         <div
           className="uk-bg-white br-20 mk5-ic uk-position-relative min-h500 ic-color"
           id="uk-bg-white"
