@@ -3,7 +3,14 @@ import CountUp from 'react-countup';
 
 import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSolarPanel, faAward, faEarthAmericas, faCartShopping, faKey,faTty } from '@fortawesome/free-solid-svg-icons';
+import {
+  faSolarPanel,
+  faAward,
+  faEarthAmericas,
+  faCartShopping,
+  faKey,
+  faTty,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -20,9 +27,9 @@ const Home = () => {
     const kollektorlSonucHesap = (kisiSayisiHesap / 120 / 11 / 3) * 20;
     const kollektorsSonucHesap = kollektorlSonucHesap * 1.375;
 
-    setBoylerSonuc(Math.round(boylerSonucHesap) + ' Litre');
-    setKollektorlSonuc(Math.round(kollektorlSonucHesap) + ' Adet');
-    setKollektorsSonuc(Math.round(kollektorsSonucHesap) + ' Adet');
+    setBoylerSonuc(Math.round(boylerSonucHesap) + t('liter'));
+    setKollektorlSonuc(Math.round(kollektorlSonucHesap) + t('Piece'));
+    setKollektorsSonuc(Math.round(kollektorsSonucHesap) + t('Piece'));
   };
 
   return (
@@ -59,13 +66,13 @@ const Home = () => {
         <div
           className="site-section"
           id="next-section"
-          style={{ display: 'flex', justifyContent: 'space-evenly', marginTop:'-10%' }}
+          style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: '-10%' }}
         >
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 mb-5 mb-lg-0">
                 <img
-                  src="/img/gunes_kollektoru.jpg"
+                  src="/img/mainPageIntro.jpg"
                   alt=""
                   className="img-fluid img-shadow"
                   id="firstImgInAbout"
@@ -78,64 +85,62 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div
-      className="row pb-0 border-top pt-5 block__19738 section-counter"
-      id="counterMainDiv"
-    >
-      <div className="container" id="counterCont">
-        {/* BRANDS Counter */}
-        <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
-          <span className="homeIcon">
-            <FontAwesomeIcon icon={faAward} size="2xl" />
-          </span>
-          <div
-            className="d-flex align-items-center justify-content-center mb-2"
-            id="infoNumber"
-          >
-            <span className="icon-line-mobile mr-3" />
-            <span className="number">
-              <CountUp start={0} end={40} duration={2.5} />+<span style={{fontSize:"large"}}>{t('homeCounterBrandsT')}</span>
-            </span>
-          </div>
-          <span className="caption">{t('homeCounterBrands')}</span>
-        </div>
+        <div className="row pb-0 border-top pt-5 block__19738 section-counter" id="counterMainDiv">
+          <div className="container" id="counterCont">
+            {/* BRANDS Counter */}
+            <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
+              <span className="homeIcon">
+                <FontAwesomeIcon icon={faAward} size="2xl" />
+              </span>
+              <div
+                className="d-flex align-items-center justify-content-center mb-2"
+                id="infoNumber"
+              >
+                <span className="icon-line-mobile mr-3" />
+                <span className="number">
+                  <CountUp start={0} end={40} duration={2.5} />+
+                  <span style={{ fontSize: 'large' }}>{t('homeCounterBrandsT')}</span>
+                </span>
+              </div>
+              <span className="caption">{t('homeCounterBrands')}</span>
+            </div>
 
-        {/* GLOBAL Counter */}
-        <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
-          <span className="homeIcon">
-            <FontAwesomeIcon icon={faEarthAmericas} size="2xl" />
-          </span>
-          <div
-            className="d-flex align-items-center justify-content-center mb-2"
-            id="infoNumber"
-          >
-            <span className="icon-line-lightbulb mr-3" />
-            <span className="number">
-              <CountUp start={0} end={7} duration={2.5} /><span style={{fontSize:"large"}}>{t('homeCounterAreaT')}</span>
-            </span>
-          </div>
-          <span className="caption">{t('homeCounterArea')}</span>
-        </div>
+            {/* GLOBAL Counter */}
+            <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
+              <span className="homeIcon">
+                <FontAwesomeIcon icon={faEarthAmericas} size="2xl" />
+              </span>
+              <div
+                className="d-flex align-items-center justify-content-center mb-2"
+                id="infoNumber"
+              >
+                <span className="icon-line-lightbulb mr-3" />
+                <span className="number">
+                  <CountUp start={0} end={7} duration={2.5} />
+                  <span style={{ fontSize: 'large' }}>{t('homeCounterAreaT')}</span>
+                </span>
+              </div>
+              <span className="caption">{t('homeCounterArea')}</span>
+            </div>
 
-        {/* PROJECT Counter */}
-        <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
-          <span className="homeIcon">
-            <FontAwesomeIcon icon={faSolarPanel} size="2xl" />
-          </span>
-          <div
-            className="d-flex align-items-center justify-content-center mb-2"
-            id="infoNumber"
-          >
-            <span className="number" >
-              <CountUp start={0} end={1000} duration={2.5} separator=""/>+<span style={{fontSize:"large"}}>{t('homeCounterProjectT')}</span>
-            </span>
+            {/* PROJECT Counter */}
+            <div className="col-4 col-md-4 col-lg-4 mb-7 mb-lg-0" id="counterPart">
+              <span className="homeIcon">
+                <FontAwesomeIcon icon={faSolarPanel} size="2xl" />
+              </span>
+              <div
+                className="d-flex align-items-center justify-content-center mb-2"
+                id="infoNumber"
+              >
+                <span className="number">
+                  <CountUp start={0} end={1000} duration={2.5} separator="" />+
+                  <span style={{ fontSize: 'large' }}>{t('homeCounterProjectT')}</span>
+                </span>
+              </div>
+              <span className="caption">{t('homeCounterProject')}</span>
+            </div>
           </div>
-          <span className="caption">
-            {t('homeCounterProject')}
-          </span>
         </div>
-      </div>
-    </div>
       </section>
 
       <section
@@ -149,14 +154,22 @@ const Home = () => {
           zIndex: '1',
         }}
       >
-        <h1 style={{ color: 'black'  }}>{t('ourServicesTitle')}</h1>
-        <h6 style={{ color: 'black', fontWeight: 'lighter', margin:"auto",width:"50%",fontSize:"smaller"}}>
+        <h1 style={{ color: 'black' }}>{t('ourServicesTitle')}</h1>
+        <h6
+          style={{
+            color: 'black',
+            fontWeight: 'lighter',
+            margin: 'auto',
+            width: '50%',
+            fontSize: 'smaller',
+          }}
+        >
           {t('ourServicesParagraph')}
         </h6>
 
         <div class="container2" style={{ justifyContent: 'center', marginTop: '50px' }}>
           <div class="card" style={{ height: '350px', minWidth: '350px' }}>
-            <div class="box" style={{alignItems:"flex-start"}}>
+            <div class="box" style={{ alignItems: 'flex-start' }}>
               <div class="content">
                 <span>
                   <FontAwesomeIcon
@@ -167,14 +180,12 @@ const Home = () => {
                 </span>
 
                 <h3>{t('ourServicesCard1Title')}</h3>
-                <p style={{fontSize:"smaller"}}>
-                {t('ourServicesCard1Paragraph')}{' '}
-                </p>
+                <p style={{ fontSize: 'smaller' }}>{t('ourServicesCard1Paragraph')} </p>
               </div>
             </div>
           </div>
           <div class="card" style={{ height: '350px', minWidth: '350px' }}>
-            <div class="box" style={{alignItems:"flex-start"}}>
+            <div class="box" style={{ alignItems: 'flex-start' }}>
               <div class="content">
                 <span>
                   <FontAwesomeIcon
@@ -185,77 +196,60 @@ const Home = () => {
                 </span>
 
                 <h3>{t('ourServicesCard2Title')}</h3>
-                <p style={{fontSize:"smaller"}}>{t('ourServicesCard2Paragraph')}</p>
+                <p style={{ fontSize: 'smaller' }}>{t('ourServicesCard2Paragraph')}</p>
               </div>
             </div>
           </div>
 
           <div class="card" style={{ height: '350px', minWidth: '350px' }}>
-            <div class="box" style={{alignItems:"flex-start"}}>
+            <div class="box" style={{ alignItems: 'flex-start' }}>
               <div class="content">
                 <span>
                   <FontAwesomeIcon
-                    icon={faTty} 
+                    icon={faTty}
                     size="2xl"
                     style={{ marginBottom: '30px', marginTop: '20px' }}
                   />
                 </span>
                 <h3>{t('ourServicesCard3Title')}</h3>
-                <p style={{fontSize:"smaller"}}>{t('ourServicesCard3Paragraph')}</p>
+                <p style={{ fontSize: 'smaller' }}>{t('ourServicesCard3Paragraph')}</p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section
-        style={{
-          backgroundColor: 'black',
-          marginTop: '-66px',
-          borderRadius: '50px 50px 0px 0px',
-          paddingTop: '5rem',
-          paddingBottom: '5rem',
-          position: 'relative',
-          zIndex: '1',
-        }}
-      >
-        <h1 style={{ color: 'white' }}>{t('recentProjectsTitle')}</h1>
-        <h6  style={{
-            color: 'white',
-            fontWeight: 'lighter',
-            padding: '30px',
-            fontSize: 'smaller',
-            width: '50%',
-            margin: 'auto',
-          }}>
-         {t('recentProjectsParagraph')}
-        </h6>
-        <div className="container2" id='ourRecentProject'>
-          <div className="col-lg-6 mb-5 mb-lg-0">
-            <img
-              src="/img/gunes_kollektoru.jpg"
-              alt=""
-              className="img-fluid img-shadow"
-              id="firstImgInAbout2"
-            />
-          </div>
-          <div className="col-lg-6 mb-5 mb-lg-0">
-            <img
-              src="/img/gunes_kollektoru.jpg"
-              alt=""
-              className="img-fluid img-shadow"
-              id="firstImgInAbout2"
-            />
-          </div>
-          <div className="col-lg-6 mb-5 mb-lg-0">
-            <img
-              src="/img/gunes_kollektoru.jpg"
-              alt=""
-              className="img-fluid img-shadow"
-              id="firstImgInAbout2"
-            />
-          </div>
+  style={{
+    backgroundColor: 'black',
+    marginTop: '-66px',
+    borderRadius: '50px 50px 0px 0px',
+    paddingTop: '5rem',
+    paddingBottom: '5rem',
+    position: 'relative',
+    zIndex: '1',
+  }}
+>
+  <h1 style={{ color: 'white' }}>{t('recentProjectsTitle')}</h1>
+  <h6 id='ourRecentProjectParag'>
+    {t('recentProjectsParagraph')}
+  </h6>
+  <div className="slider-container">
+    {[
+      { img: '/img/gunes_kollektoru.jpg', countryKey: 'australia', capacity: '200 MW' },
+      { img: '/img/gunes_kollektoru.jpg', countryKey: 'turkey', capacity: '150 MW' },
+      { img: '/img/gunes_kollektoru.jpg', countryKey: 'morocco', capacity: '100 MW' },
+    ].map((item, index) => (
+      <div className="slider-item" key={index}>
+        <img src={item.img} alt={t(`countries.${item.countryKey}`)} />
+        <div className="slider-overlay">
+          <h2>{t(`countries.${item.countryKey}`)}</h2>
+          <p>{t('projectCapacity', { capacity: item.capacity })}</p>
         </div>
-      </section>
+      </div>
+    ))}
+  </div>
+</section>
+
       <section
         style={{
           backgroundColor: 'white',
@@ -311,7 +305,7 @@ const Home = () => {
               {/* Kişi Sayısı Girişi */}
               <div className="uk-margin">
                 <label className="uk-form-label" htmlFor="kisiSayisi" style={{ color: 'black' }}>
-                {t('yapıdaBulunanKişiSayısı')}:
+                  {t('yapıdaBulunanKişiSayısı')}:
                 </label>
                 <div className="uk-form-controls">
                   <input
@@ -350,7 +344,7 @@ const Home = () => {
               {/* Sonuç Alanları */}
               <div className="uk-margin">
                 <label className="uk-form-label" htmlFor="boylerSonuc" style={{ color: 'black' }}>
-                {t('BoylerNeed')}:
+                  {t('BoylerNeed')}:
                 </label>
                 <div className="uk-form-controls">
                   <input
@@ -378,6 +372,14 @@ const Home = () => {
                     disabled
                     value={kollektorlSonuc}
                   />
+                </div>
+              </div>
+              <div className="uk-margin">
+                <div
+                  className="uk-form-controls"
+                  style={{ display: 'flex', justifyContent: 'center' }}
+                >
+                  <h6 style={{color:"black"}}>{t('or')}</h6>
                 </div>
               </div>
               <div className="uk-margin">

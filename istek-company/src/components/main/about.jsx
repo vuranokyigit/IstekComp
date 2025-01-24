@@ -28,7 +28,7 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 mb-5 mb-lg-0">
               <img
-                src="/img/kollector.jpg"
+                src="/img/aboutUsImage.jpg"
                 alt=""
                 className="img-fluid img-shadow"
                 id="firstImgInAbout"
@@ -38,7 +38,7 @@ const About = () => {
               <h2 className="section-title mb-3">{t("aboutUsFirstTitle")}</h2>
               <p>{t("aboutUsFirstParagraph1")}</p>
               <p>{t("aboutUsFirstParagraph2")}</p>
-              <p>{t("aboutUsFirstParagraph3")}</p>
+              {/* <p>{t("aboutUsFirstParagraph3")}</p> */}
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ const About = () => {
           />
           <figcaption>
             <img
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample4.jpg"
+              src="/img/ferdapp.jpg"
               alt="profile-sample4"
               class="profile"
             />
@@ -73,7 +73,7 @@ const About = () => {
           />
           <figcaption>
             <img
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample2.jpg"
+              src="/img/turkupp.jpg"
               alt="profile-sample2"
               class="profile"
             />
@@ -82,26 +82,6 @@ const About = () => {
             </h2>
             <p>
             {t('aboutUsHumanTurkuBreif')}
-            </p>
-            
-          </figcaption>
-        </figure>
-        <figure class="snip1336 hover">
-          <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample74.jpg"
-            alt="sample74"
-          />
-          <figcaption>
-            <img
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample2.jpg"
-              alt="profile-sample2"
-              class="profile"
-            />
-            <h2>
-            MEHMET ATLI<span style={{color:'red'}}>CFO</span>
-            </h2>
-            <p>
-            {t('aboutUsHumanTurku3')}
             </p>
             
           </figcaption>

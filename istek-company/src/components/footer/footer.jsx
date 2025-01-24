@@ -1,8 +1,8 @@
 import React from "react";
 import '../styles/component.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-import {  faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+import { faArrowUp,faPhone,faMobile,faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import {  faWhatsapp,faFacebook,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {useTranslation} from "react-i18next";
 const Footer = () => {
     const {t}=useTranslation();
@@ -23,7 +23,10 @@ const Footer = () => {
                                     <a href="/istek/about">{t('footerCompanyLink1')}</a>
                                 </li>
                                 <li>
-                                    <a href="/istek/product">{t('footerCompanyLink2')}</a>
+                                    <a href="/istek/about">{t('footerCompanyLink2')}</a>
+                                </li>
+                                <li>
+                                    <a href="/istek/about">{t('footerCompanyLink5')}</a>
                                 </li>
                                 
                                 <li>
@@ -53,14 +56,27 @@ const Footer = () => {
                         <div  className="col-6 col-md-4 mb-4 mb-md-0" id="footerContactSection">
                             <h3>{t('footerContactTitle')}</h3>
                             <div className="footerContact">
+                            <div className="footer-social" id="footersocial">
+                                <a href="/istek/contact" id="insta" target="_blank" rel="noopener noreferrer">
+                                   <span><FontAwesomeIcon icon={faFacebook}  size="xl"/></span>
+                                </a>
+                                <a href="https://www.linkedin.com/company/istek-yenilenebilir-enerji-ltd-sti/" id="linked" target="_blank" rel="noopener noreferrer">
+                                   <span> <FontAwesomeIcon icon={faLinkedin} size="xl" /></span>
+                                </a>
+                            </div>
                                 <h3>
-                                +90 242 323 22 13 / TR
+                                <span><FontAwesomeIcon icon={faPhone} size="xl"/></span> +90 242 323 22 13
                                 </h3>
                                 <h3>
-                                +90 536 774 57 59 / GSM & <span> <FontAwesomeIcon icon={faWhatsapp} size="xl" /></span>
+                                <span><FontAwesomeIcon icon={faMobile} size="xl"/></span> +90 536 774 57 59
+                                </h3>
+                                <h3>
+                                <span> <FontAwesomeIcon icon={faWhatsapp} size="xl" /></span> +90 536 774 57 59
                                 </h3>
                                 
-                                <h6>{t('contactInfoAddress')}</h6>
+                                <h6>
+                                <span><FontAwesomeIcon icon={faLocationDot} size="xl" /></span> {t('contactInfoAddress')}
+                                    </h6>
                                 <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('footerContactButton')}</button></a>
                             </div>
 

@@ -5,11 +5,13 @@ import { initReactI18next } from 'react-i18next';
 import enTranslation from './locales/en.json';
 import trTranslation from './locales/tr.json';
 import rsTranslation from './locales/rs.json';
+import frTranslation from './locales/fr.json';
 
 const resources = {
     en: { translation: enTranslation },
     tr: { translation: trTranslation },
     rs: { translation: rsTranslation },
+    fr: { translation: frTranslation },
 };
 
 // Dil bilgisini localStorage'dan al

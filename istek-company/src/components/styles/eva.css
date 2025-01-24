@@ -948,7 +948,7 @@ section{
     width: 40px;
     height: 40px;
     position: relative;
-    background: #007bff;
+    background: #090909;
     border-radius: 50%;
     text-decoration: none !important; }
 .footer-social a > span, .social a > span {
@@ -962,7 +962,7 @@ section{
 .footer-social a:hover, .social a:hover {
     background: #fff; }
 .footer-social a:hover span, .social a:hover span {
-    color: #007bff; }
+    color: #0e0e0f; }
 
 .social a:hover {
     background: #343a40; }
@@ -1435,3 +1435,84 @@ section{
         overflow-x: scroll;
         margin-top: 100px;
        }
+       #ourRecentProjectParag{
+        color: white;
+        font-weight: lighter;
+        padding: 30px;
+        font-size: smaller;
+        width: 50%;
+        margin: auto;
+    }
+       .slider-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 0 5rem;
+      }
+      @media screen and (max-width: 768px) {
+        .slider-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 5rem;
+            width: 100%;
+        }
+        #ourRecentProjectParag{
+            color: white;
+            font-weight: lighter;
+            padding: 30px;
+            font-size: smaller;
+            width: 100%;
+            margin: auto;
+        }
+        
+      }
+      
+      .slider-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 15px;
+      }
+      
+      .slider-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+      }
+      
+      .slider-item:hover img {
+        transform: scale(1.1); /* Hover'da görselin büyümesi */
+      }
+      
+      .slider-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        text-align: center;
+      }
+      
+      .slider-item:hover .slider-overlay {
+        opacity: 1;
+        transform: translateY(-10px); /* Hover'da overlay hareketi */
+      }
+      
+      .slider-overlay h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+      
+      .slider-overlay p {
+        font-size: 1rem;
+      }
+      

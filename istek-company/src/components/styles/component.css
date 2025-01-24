@@ -774,6 +774,9 @@ video{
     #solarEnergySystemCalculation .uk-form-controls {
         width: 100%;
     }
+    #aboutHumanSection{
+        margin-top:-70px!important;
+    }
 }
 
 #solarEnergySystemCalculation .uk-form-horizontal {

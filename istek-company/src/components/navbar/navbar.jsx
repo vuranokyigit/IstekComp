@@ -44,6 +44,7 @@ const MyNavbar = () => {
                     <button style={{border: "none"}} onClick={() => changeLanguage('tr')}><img style={{width: "30px"}} src="/img/turkey.png" alt=""/></button>
                     <button style={{border: "none"}} onClick={() => changeLanguage('en')}><img style={{width: "30px"}} src="/img/united-kingdom.png" alt=""/></button>
                     <button style={{border: "none"}} onClick={() => changeLanguage('rs')}><img style={{width: "30px"}} src="/img/russia.png" alt=""/></button>
+                    <button style={{border: "none"}} onClick={() => changeLanguage('fr')}><img style={{width: "30px"}} src="/img/france.png" alt=""/></button>
                 </div>
             </Navbar.Collapse>
         </Navbar>
