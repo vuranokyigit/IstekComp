@@ -275,6 +275,10 @@ video{
     height: 100%;
     */
 }
+#pdfIcon{
+    margin-top: 10%;
+}
+
 @media (min-width: 991px){
     #home-section{
         /* Create the parallax scrolling effect */
@@ -286,7 +290,7 @@ video{
         margin-top: 2rem;
         height: 10px;
     }
-    .homeIcon svg{
+    .homeIcon img{
         font-size: 1.8rem!important;
     }
     .number{
@@ -307,8 +311,20 @@ video{
     }
 }
 @media (max-width: 767px) {
-   #about-us-section{
-   }
+    #boilersDisplay{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #boilersDisplay p{
+        
+
+    }
+}
+#iconBrandCert{
+    margin-bottom: 10px;
 }
 #counterPart{
     justify-content: center;

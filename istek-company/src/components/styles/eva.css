@@ -586,6 +586,18 @@ section{
 .homeIcon svg{
     font-size: 3.5rem;
 }
+.homeIcon img{
+    width: 100%;
+}
+#certificateIcon{
+    margin-top:10%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items:center;
+    gap: 20px;
+}
 .block__19738 {
     text-align: center; }
 .block__19738 [class^="icon-"], .block__19738 [class^="flaticon-"] {
