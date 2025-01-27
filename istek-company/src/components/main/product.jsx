@@ -41,7 +41,7 @@ const Product = () => {
           zIndex: '1',
         }}
       >
-        <h1 style={{fontSize:"40px",color:"black"}}>{t('collectorTitle')}</h1> 
+        <h1 style={{ fontSize: '40px', color: 'black' }}>{t('collectorTitle')}</h1>
 
         <div className="container">
           <div className="row mb-5">
@@ -50,10 +50,11 @@ const Product = () => {
             </div>
           </div>
           <div className="row mb-5 mt-5">
-            <div className="col-lg-6">
-              <figure>
+            <div class="col-lg-6">
+              <figure class="image-hover">
                 <a href="/img/Istek_Cu+.png" data-fancybox="gallery">
-                  <img src="/img/Istek_Cu+.jpg" alt="" className="img-fluid" />
+                  <img src="/img/IstekCu++.jpg" alt="" class="img-fluid main-image" />
+                  <img src="/img/collectorKapali.png" alt="" class="img-fluid hover-image" />
                 </a>
               </figure>
             </div>
@@ -152,10 +153,10 @@ const Product = () => {
           zIndex: '1',
         }}
       >
-         <h1 style={{fontSize:"40px"}}> {t('boilerTitle3')}</h1> 
+        <h1 style={{ fontSize: '40px' }}> {t('boilerTitle3')}</h1>
         <div id="boilersDisplay" style={{ display: 'flex' }}>
           <div id="firstBoilerSec" style={{ width: '50%' }}>
-            <h1 style={{fontSize:"25px"}}>{t('boilerTitle')}</h1>
+            <h1 style={{ fontSize: '25px' }}>{t('boilerTitle')}</h1>
             <p
               className="mb-0"
               style={{
@@ -197,7 +198,7 @@ const Product = () => {
               </div>
             </div>
             <div>
-                <a
+              <a
                 href="/boiler.pdf"
                 style={{ color: 'white', marginLeft: '10px' }}
                 target="/istek/boiler.pdf"
@@ -214,47 +215,51 @@ const Product = () => {
                 <span className="icon-line-mobile mr-6" />
               </div>
               <span className="caption">{t('productDocuments')}</span>
+            </div>
 
-                </div>
-             
-            <div id='iconBrandCert' style={{display:"flex",justifyContent:"center",marginTop:"3%"}}>
-              
-            <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
-                  style={{ color: 'black' }}
-                  target="/istek/Istek_Cu+_Technical_Sheet.pdf"
-                  rel="noopener noreferrer"
-                >
-                  <span className="homeIcon">
-                    <img style={{width:"60px",height:"60px"}} src="/img/iso9001.png" alt="" />
-                  </span>
-                </a>
-                <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
-                  style={{ color: 'black' }}
-                  target="/istek/Istek_Cu+_Technical_Sheet.pdf"
-                  rel="noopener noreferrer"
-                >
-                  <span className="homeIcon">
-                    <img style={{width:"60px",height:"60px"}} src="/img/logotse.png" alt="" />
-                  </span>
-                </a>
+            <div
+              id="iconBrandCert"
+              style={{ display: 'flex', justifyContent: 'center', marginTop: '3%' }}
+            >
+              <a
+                href="/Istek_Cu+_Technical_Sheet.pdf"
+                style={{ color: 'black' }}
+                target="/istek/Istek_Cu+_Technical_Sheet.pdf"
+                rel="noopener noreferrer"
+              >
+                <span className="homeIcon">
+                  <img style={{ width: '60px', height: '60px' }} src="/img/iso9001.png" alt="" />
+                </span>
+              </a>
+              <a
+                href="/Istek_Cu+_Technical_Sheet.pdf"
+                style={{ color: 'black' }}
+                target="/istek/Istek_Cu+_Technical_Sheet.pdf"
+                rel="noopener noreferrer"
+              >
+                <span className="homeIcon">
+                  <img style={{ width: '60px', height: '60px' }} src="/img/logotse.png" alt="" />
+                </span>
+              </a>
 
-                <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
-                  style={{ color: 'black' }}
-                  target="/istek/Istek_Cu+_Technical_Sheet.pdf"
-                  rel="noopener noreferrer"
-                >
-                  <span className="homeIcon">
-                    <img style={{width:"60px",height:"60px"}} src="/img/cebeyazsiyah.jpg" alt="" />
-                  </span>
-                </a>
-                
+              <a
+                href="/Istek_Cu+_Technical_Sheet.pdf"
+                style={{ color: 'black' }}
+                target="/istek/Istek_Cu+_Technical_Sheet.pdf"
+                rel="noopener noreferrer"
+              >
+                <span className="homeIcon">
+                  <img
+                    style={{ width: '60px', height: '60px' }}
+                    src="/img/cebeyazsiyah.jpg"
+                    alt=""
+                  />
+                </span>
+              </a>
             </div>
           </div>
           <div id="secondBoilerSec" style={{ width: '50%' }}>
-            <h1 style={{fontSize:"25px"}}>{t('boilerTitle2')}</h1>
+            <h1 style={{ fontSize: '25px' }}>{t('boilerTitle2')}</h1>
             <p
               className="mb-0"
               style={{
@@ -269,9 +274,15 @@ const Product = () => {
               {t('productBoylerParagraph2')}
             </p>
 
-            
-            <div class="container2" style={{ justifyContent: 'center', marginTop: '50px',flexDirection:"column",alignItems:"center" }}>
-              
+            <div
+              class="container2"
+              style={{
+                justifyContent: 'center',
+                marginTop: '50px',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
               <div className="col-lg-4">
                 <figure>
                   <a href="/img/Boyler_kılıflı-Photoroom.png" data-fancybox="gallery">
@@ -282,16 +293,12 @@ const Product = () => {
               <div className="col-lg-4">
                 <figure>
                   <a href="/img/boyler_çift_tek_serpantin-Photoroom.png" data-fancybox="gallery">
-                    <img
-                      src="/img/yatık_boyler-Photoroom.png"
-                      alt=""
-                      className="img-fluid"
-                    />
+                    <img src="/img/yatık_boyler-Photoroom.png" alt="" className="img-fluid" />
                   </a>
                 </figure>
               </div>
             </div>
-            <div style={{marginTop:"4%"}}>
+            <div style={{ marginTop: '4%' }}>
               <a
                 href="/boiler.pdf"
                 style={{ color: 'white' }}
@@ -310,43 +317,47 @@ const Product = () => {
               </div>
               <span className="caption">{t('productDocuments')}</span>
             </div>
-            <div id='iconBrandCert' style={{display:"flex",justifyContent:"center",marginTop:"3%"}}>
-              
+            <div
+              id="iconBrandCert"
+              style={{ display: 'flex', justifyContent: 'center', marginTop: '3%' }}
+            >
               <a
-                    href="/Istek_Cu+_Technical_Sheet.pdf"
-                    style={{ color: 'black' }}
-                    target="/istek/Istek_Cu+_Technical_Sheet.pdf"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="homeIcon">
-                      <img style={{width:"60px",height:"60px"}} src="/img/iso9001.png" alt="" />
-                    </span>
-                  </a>
-                  <a
-                    href="/Istek_Cu+_Technical_Sheet.pdf"
-                    style={{ color: 'black' }}
-                    target="/istek/Istek_Cu+_Technical_Sheet.pdf"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="homeIcon">
-                      <img style={{width:"60px",height:"60px"}} src="/img/logotse.png" alt="" />
-                    </span>
-                  </a>
-  
-                  <a
-                    href="/Istek_Cu+_Technical_Sheet.pdf"
-                    style={{ color: 'black' }}
-                    target="/istek/Istek_Cu+_Technical_Sheet.pdf"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="homeIcon">
-                      <img style={{width:"60px",height:"60px"}} src="/img/cebeyazsiyah.jpg" alt="" />
-                    </span>
-                  </a>
-                  
-              </div>
+                href="/Istek_Cu+_Technical_Sheet.pdf"
+                style={{ color: 'black' }}
+                target="/istek/Istek_Cu+_Technical_Sheet.pdf"
+                rel="noopener noreferrer"
+              >
+                <span className="homeIcon">
+                  <img style={{ width: '60px', height: '60px' }} src="/img/iso9001.png" alt="" />
+                </span>
+              </a>
+              <a
+                href="/Istek_Cu+_Technical_Sheet.pdf"
+                style={{ color: 'black' }}
+                target="/istek/Istek_Cu+_Technical_Sheet.pdf"
+                rel="noopener noreferrer"
+              >
+                <span className="homeIcon">
+                  <img style={{ width: '60px', height: '60px' }} src="/img/logotse.png" alt="" />
+                </span>
+              </a>
+
+              <a
+                href="/Istek_Cu+_Technical_Sheet.pdf"
+                style={{ color: 'black' }}
+                target="/istek/Istek_Cu+_Technical_Sheet.pdf"
+                rel="noopener noreferrer"
+              >
+                <span className="homeIcon">
+                  <img
+                    style={{ width: '60px', height: '60px' }}
+                    src="/img/cebeyazsiyah.jpg"
+                    alt=""
+                  />
+                </span>
+              </a>
+            </div>
           </div>
-          
         </div>
       </section>
       <section
@@ -363,10 +374,10 @@ const Product = () => {
           zIndex: '1',
         }}
       >
-                <h1 style={{fontSize:"40px",color:"black"}}> {t('solarEnergyTitle')}</h1> 
+        <h1 style={{ fontSize: '40px', color: 'black' }}> {t('solarEnergyTitle')}</h1>
 
         <div className="container">
-          <div className="row mb-5 mt-5" style={{alignItems:"center"}}>
+          <div className="row mb-5 mt-5" style={{ alignItems: 'center' }}>
             <div className="col-lg-6">
               <figure>
                 <a href="/img/solar_energy_system .png" data-fancybox="gallery">
@@ -377,7 +388,7 @@ const Product = () => {
             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
               <div className="mb-5">
                 <h3 className="mb-4 h4" style={{ color: 'black' }}>
-                  {t('producSolarSystemsTitle')}Dogal sirkulasyon sistemleri
+                  {t('dogalSolarSystemsTitle')}
                 </h3>
                 <p className="mb-0">{t('productEvaBrandParagraph')}</p>
               </div>
@@ -400,13 +411,21 @@ const Product = () => {
                 </div>
                 <span className="caption">{t('productDocuments')}</span>
               </div>
+              <figure>
+                <a href="/img/solar_energy_system .png" data-fancybox="gallery">
+                  <img src="/img/dogalTable.jpg" alt="" className="img-fluid" />
+                </a>
+              </figure>
             </div>
           </div>
-          <div className="row mb-5 " style={{marginTop:"-8%",alignItems:"center",justifyContent:"center"}}>
+          <div
+            className="row mb-5 "
+            style={{ marginTop: '-5%', alignItems: 'center', justifyContent: 'center' }}
+          >
             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
               <div className="mb-5">
                 <h3 className="mb-4 h4" style={{ color: 'black' }}>
-                  {t('producSolarSystemsTitle')}Pompali sistemler
+                  {t('pompaliSolarSystemsTitle')}
                 </h3>
                 <p className="mb-0">{t('productEvaBrandParagraph')}</p>
               </div>
@@ -429,17 +448,21 @@ const Product = () => {
                 </div>
                 <span className="caption">{t('productDocuments')}</span>
               </div>
+              <figure>
+                <a href="/img/solar_energy_system .png" data-fancybox="gallery">
+                  <img src="/img/pompaliTable.jpg" alt="" className="img-fluid" />
+                </a>
+              </figure>
             </div>
             <div className="col-lg-6">
               <figure>
                 <a href="/img/solar_energy_system .png" data-fancybox="gallery">
-                  <img src="/img/pompalı_sistem .png" alt="" className="img-fluid" />
+                  <img src="/img/pompaliTable.jpg" alt="" className="img-fluid" />
                 </a>
               </figure>
             </div>
           </div>
         </div>
-        
       </section>
       <section class="dorik-section dorik-section-ab2jbjkk" style={{ marginTop: '-20px' }}>
         <div class="">

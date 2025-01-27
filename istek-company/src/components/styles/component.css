@@ -967,3 +967,32 @@ video{
     width: auto !important;
     justify-content: center !important;
 }
+.image-hover {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-hover .main-image {
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-hover .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-hover:hover .main-image {
+    opacity: 0;
+  }
+  
+  .image-hover:hover .hover-image {
+    opacity: 1;
+  }
+  

@@ -49,7 +49,7 @@ const About = () => {
         </p>
             <h3 className="mb-4 mt-4 h4">{t('aboutMissionTitle')}</h3>
             <span className="text-danger"> *</span><p className="mb-0" style={{
-            width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small"
+            width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small",height:"12rem"
         }}>
             {t('aboutMissionParagraph')}
         </p>
