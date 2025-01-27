@@ -366,12 +366,7 @@ const Product = () => {
                 <h1 style={{fontSize:"40px",color:"black"}}> {t('solarEnergyTitle')}</h1> 
 
         <div className="container">
-          <div className="row mb-5">
-            <div className="col-md-6">
-              <p />
-            </div>
-          </div>
-          <div className="row mb-5 mt-5">
+          <div className="row mb-5 mt-5" style={{alignItems:"center"}}>
             <div className="col-lg-6">
               <figure>
                 <a href="/img/solar_energy_system .png" data-fancybox="gallery">
@@ -407,7 +402,44 @@ const Product = () => {
               </div>
             </div>
           </div>
+          <div className="row mb-5 " style={{marginTop:"-8%",alignItems:"center",justifyContent:"center"}}>
+            <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
+              <div className="mb-5">
+                <h3 className="mb-4 h4" style={{ color: 'black' }}>
+                  {t('producSolarSystemsTitle')}
+                </h3>
+                <p className="mb-0">{t('productEvaBrandParagraph')}</p>
+              </div>
+              <div>
+                <a
+                  href="/Istek_Cu+_Technical_Sheet.pdf"
+                  style={{ color: 'black' }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="homeIcon">
+                    <FontAwesomeIcon icon={faFileInvoice} size="2xl" />
+                  </span>
+                </a>
+                <div
+                  className="d-flex align-items-center justify-content-center mb-2"
+                  id="infoNumber"
+                >
+                  <span className="icon-line-mobile mr-6" />
+                </div>
+                <span className="caption">{t('productDocuments')}</span>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <figure>
+                <a href="/img/solar_energy_system .png" data-fancybox="gallery">
+                  <img src="/img/solar_energy_system .jpg" alt="" className="img-fluid" />
+                </a>
+              </figure>
+            </div>
+          </div>
         </div>
+        
       </section>
       <section class="dorik-section dorik-section-ab2jbjkk" style={{ marginTop: '-20px' }}>
         <div class="">
