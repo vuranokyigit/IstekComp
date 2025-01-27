@@ -8,7 +8,7 @@ const Product = () => {
   return (
     <>
       <section
-        style={{ backgroundImage: 'url("/img/products_copy.jpg")' }}
+        style={{ backgroundImage: 'url("/img/productscopy.jpg")' }}
         className="home-section section-hero image-bg overlay-2 slanted"
         id="home-section"
       >
@@ -377,7 +377,7 @@ const Product = () => {
             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
               <div className="mb-5">
                 <h3 className="mb-4 h4" style={{ color: 'black' }}>
-                  {t('producSolarSystemsTitle')}
+                  {t('producSolarSystemsTitle')}Dogal sirkulasyon sistemleri
                 </h3>
                 <p className="mb-0">{t('productEvaBrandParagraph')}</p>
               </div>
@@ -406,7 +406,7 @@ const Product = () => {
             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
               <div className="mb-5">
                 <h3 className="mb-4 h4" style={{ color: 'black' }}>
-                  {t('producSolarSystemsTitle')}
+                  {t('producSolarSystemsTitle')}Pompali sistemler
                 </h3>
                 <p className="mb-0">{t('productEvaBrandParagraph')}</p>
               </div>
@@ -433,7 +433,7 @@ const Product = () => {
             <div className="col-lg-6">
               <figure>
                 <a href="/img/solar_energy_system .png" data-fancybox="gallery">
-                  <img src="/img/solar_energy_system .jpg" alt="" className="img-fluid" />
+                  <img src="/img/pompalı_sistem .png" alt="" className="img-fluid" />
                 </a>
               </figure>
             </div>

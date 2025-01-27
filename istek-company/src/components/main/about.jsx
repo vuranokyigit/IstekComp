@@ -61,7 +61,7 @@ const About = () => {
         <h2 style={{color:"black", display:"flex",alignItems:"center"}}>{t("aboutUsMeeting")}</h2>
         <figure class="snip1336">
           <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg"
+            src="/img/ferda_bg.jpg"
             alt="sample87"
           />
           <figcaption>
@@ -84,7 +84,7 @@ const About = () => {
         </figure>
         <figure class="snip1336 hover">
           <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample74.jpg"
+            src="/img/turku_bk.jpg"
             alt="sample74"
           />
           <figcaption>
@@ -96,10 +96,10 @@ const About = () => {
             <h2>
             TÜRKÜ AÇAR<span style={{color:'red'}}>CTO</span>
             </h2>
-            <p>
+            <p style={{textAlign:"left"}}>
             {t('aboutUsHumanTurkuBreif')}
             </p>
-            <p>
+            <p style={{textAlign:"left"}}>
             {t('aboutUsHumanTurkuBreif2')}
             </p>
             

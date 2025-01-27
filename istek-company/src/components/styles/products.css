@@ -199,6 +199,7 @@ body .container2 .card .box .content a:hover {
 .dorik-accordion-exws77h5 details[open] .details-content {
   animation: slideDown 0.6s ease-out;
   height: 145px; /* 193px - 48px (header height) */
+  overflow-y: scroll;
 }
 
 .dorik-accordion-exws77h5 details:not([open]) .details-content {
