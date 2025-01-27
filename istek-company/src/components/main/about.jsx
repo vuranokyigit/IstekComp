@@ -99,6 +99,9 @@ const About = () => {
             <p>
             {t('aboutUsHumanTurkuBreif')}
             </p>
+            <p>
+            {t('aboutUsHumanTurkuBreif2')}
+            </p>
             
           </figcaption>
         </figure>
