@@ -41,8 +41,21 @@ const About = () => {
               {/* <p>{t("aboutUsFirstParagraph3")}</p> */}
             </div>
           </div>
+            <h3 className="mb-4 mt-4 h4">{t('aboutVisionTitle')}</h3>
+            <span className="text-danger"> *</span><p className="mb-0" style={{
+            width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small"
+        }}>
+            {t('aboutVisionParagraph')}
+        </p>
+            <h3 className="mb-4 mt-4 h4">{t('aboutMissionTitle')}</h3>
+            <span className="text-danger"> *</span><p className="mb-0" style={{
+            width:"80%", margin:"0 auto",marginBottom:"3%",fontSize:"small"
+        }}>
+            {t('aboutMissionParagraph')}
+        </p>
         </div>
       </section>
+      
       <section >
         <div className="site-section"  style={{ display: 'flex', justifyContent: 'space-evenly',backgroundColor:"white",marginTop:"-110px" }} id="aboutHumanSection">
         <h2 style={{color:"black", display:"flex",alignItems:"center"}}>{t("aboutUsMeeting")}</h2>
