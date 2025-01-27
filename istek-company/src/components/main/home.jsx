@@ -219,36 +219,34 @@ const Home = () => {
         </div>
       </section>
       <section
-  style={{
-    backgroundColor: 'black',
-    marginTop: '-66px',
-    borderRadius: '50px 50px 0px 0px',
-    paddingTop: '5rem',
-    paddingBottom: '5rem',
-    position: 'relative',
-    zIndex: '1',
-  }}
->
-  <h1 style={{ color: 'white' }}>{t('recentProjectsTitle')}</h1>
-  <h6 id='ourRecentProjectParag'>
-    {t('recentProjectsParagraph')}
-  </h6>
-  <div className="slider-container">
-    {[
-      { img: '/img/gunes_kollektoru.jpg', countryKey: 'australia', capacity: '200 MW' },
-      { img: '/img/gunes_kollektoru.jpg', countryKey: 'turkey', capacity: '150 MW' },
-      { img: '/img/gunes_kollektoru.jpg', countryKey: 'morocco', capacity: '100 MW' },
-    ].map((item, index) => (
-      <div className="slider-item" key={index}>
-        <img src={item.img} alt={t(`countries.${item.countryKey}`)} />
-        <div className="slider-overlay">
-          <h2>{t(`countries.${item.countryKey}`)}</h2>
-          <p>{t('projectCapacity', { capacity: item.capacity })}</p>
+        style={{
+          backgroundColor: 'black',
+          marginTop: '-66px',
+          borderRadius: '50px 50px 0px 0px',
+          paddingTop: '5rem',
+          paddingBottom: '5rem',
+          position: 'relative',
+          zIndex: '1',
+        }}
+      >
+        <h1 style={{ color: 'white' }}>{t('recentProjectsTitle')}</h1>
+        <h6 id="ourRecentProjectParag">{t('recentProjectsParagraph')}</h6>
+        <div className="slider-container">
+          {[
+            { img: '/img/gunes_kollektoru.jpg', countryKey: 'australia', capacity: '200 MW' },
+            { img: '/img/gunes_kollektoru.jpg', countryKey: 'turkey', capacity: '150 MW' },
+            { img: '/img/gunes_kollektoru.jpg', countryKey: 'morocco', capacity: '100 MW' },
+          ].map((item, index) => (
+            <div className="slider-item" key={index}>
+              <img src={item.img} alt={t(`countries.${item.countryKey}`)} />
+              <div className="slider-overlay">
+                <h2>{t(`countries.${item.countryKey}`)}</h2>
+                <p>{t('projectCapacity', { capacity: item.capacity })}</p>
+              </div>
+            </div>
+          ))}
         </div>
-      </div>
-    ))}
-  </div>
-</section>
+      </section>
 
       <section
         style={{
@@ -282,22 +280,25 @@ const Home = () => {
                     className="uk-select"
                     id="yapiTipi"
                     value={yapiTipi}
-                    onChange={e => setYapiTipi(parseFloat(e.target.value))}
+                    onChange={e => {
+                      console.log('Selected value:', e.target.value); // Debug
+                      setYapiTipi(parseFloat(e.target.value));
+                    }}
                   >
                     <option value={7}>{t('picklistSporSalonu')}</option>
                     <option value={15}>{t('picklistHastane')}</option>
                     <option value={18.5}>{t('picklistApartmanLux')}</option>
                     <option value={5}>{t('picklistApartman')}</option>
                     <option value={20}>{t('picklistYurt')}</option>
-                    <option value={10}>{t('picklistOtel1')}</option>
-                    <option value={10}>{t('picklistOtel2')}</option>
-                    <option value={10}>{t('picklistPansiyon')}</option>
+                    <option value={10.1}>{t('picklistOtel1')}</option>
+                    <option value={10.2}>{t('picklistOtel2')}</option>
+                    <option value={10.3}>{t('picklistPansiyon')}</option>
                     <option value={20}>{t('picklistFabrika')}</option>
-                    <option value={10}>{t('picklistLokanta')}</option>
-                    <option value={10}>{t('picklistHavuz')}</option>
+                    <option value={10.4}>{t('picklistLokanta')}</option>
+                    <option value={10.5}>{t('picklistHavuz')}</option>
                     <option value={20}>{t('picklistOkul')}</option>
-                    <option value={10}>{t('picklistBuro')}</option>
-                    <option value={10}>{t('picklistVilla')}</option>
+                    <option value={10.6}>{t('picklistBuro')}</option>
+                    <option value={10.7}>{t('picklistVilla')}</option>
                   </select>
                 </div>
               </div>
@@ -379,7 +380,7 @@ const Home = () => {
                   className="uk-form-controls"
                   style={{ display: 'flex', justifyContent: 'center' }}
                 >
-                  <h6 style={{color:"black"}}>{t('or')}</h6>
+                  <h6 style={{ color: 'black' }}>{t('or')}</h6>
                 </div>
               </div>
               <div className="uk-margin">
