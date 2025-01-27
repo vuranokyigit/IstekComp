@@ -73,8 +73,11 @@ const About = () => {
             <h2>
             FERDA DURDU<span style={{color:'red'}}>CEO</span>
             </h2>
-            <p>
+            <p style={{textAlign:"left"}}>
             {t('aboutUsHumanFerdaBreif')}
+            </p>
+            <p style={{textAlign:"left"}}>
+            {t('aboutUsHumanFerdaBreif2')}
             </p>
             
           </figcaption>

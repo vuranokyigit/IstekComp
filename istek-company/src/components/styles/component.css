@@ -625,6 +625,7 @@ video{
     display: flex;
     justify-content: center;
     padding-bottom: 10%;
+    margin-top: 2%;
 }
 #insta{
     margin-right: 2%;
