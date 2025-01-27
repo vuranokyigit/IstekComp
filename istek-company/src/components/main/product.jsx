@@ -41,7 +41,7 @@ const Product = () => {
           zIndex: '1',
         }}
       >
-        <h1 style={{fontSize:"40px",color:"black"}}>COLLECTORS</h1> 
+        <h1 style={{fontSize:"40px",color:"black"}}>{t('collectorTitle')}</h1> 
 
         <div className="container">
           <div className="row mb-5">
@@ -152,7 +152,7 @@ const Product = () => {
           zIndex: '1',
         }}
       >
-         <h1 style={{fontSize:"40px"}}>BOILERS</h1> 
+         <h1 style={{fontSize:"40px"}}> {t('boilerTitle3')}</h1> 
         <div id="boilersDisplay" style={{ display: 'flex' }}>
           <div id="firstBoilerSec" style={{ width: '50%' }}>
             <h1 style={{fontSize:"25px"}}>{t('boilerTitle')}</h1>
@@ -363,7 +363,7 @@ const Product = () => {
           zIndex: '1',
         }}
       >
-                <h1 style={{fontSize:"40px",color:"black"}}>SOLAR ENERGY SYSTEMS</h1> 
+                <h1 style={{fontSize:"40px",color:"black"}}> {t('solarEnergyTitle')}</h1> 
 
         <div className="container">
           <div className="row mb-5">
