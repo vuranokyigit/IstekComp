@@ -99,8 +99,19 @@
     "solarEnergySystemTitle": "Calcul du Système d'Énergie Solaire",
     "productEvaBrandParagraph": "Istek Cu est conçu pour maximiser l'efficacité de l'énergie solaire avec sa surface en plaque d'aluminium revêtue de noir mat et ses 10 tuyaux porteurs en cuivre. Avec sa haute durabilité et ses performances supérieures, c'est un choix idéal pour une utilisation individuelle et commerciale.",
     "productEvaRenewParagraph": "Istek Alu offre une solution économique et écologique pour la production d'eau chaude à partir de l'énergie solaire avec sa surface en plaque d'aluminium revêtue de noir mat et ses 12 tuyaux porteurs en aluminium. Conçu avec une ingénierie avancée et des matériaux durables, ce modèle est idéal pour les applications individuelles et commerciales.",
-    "productEvaCoreParagraph": "Excellence en Performance d'Énergie Solaire Istek Cu+ est un collecteur solaire à tubes en cuivre à surface sélective conçu avec une technologie avancée. Il est développé pour maximiser l'efficacité de l'énergie solaire et fournir une solution durable. Pourquoi choisir Istek Cu+ ? Istek Cu+ est un excellent choix avec son efficacité énergétique et sa durabilité. C'est la solution idéale pour ceux qui veulent utiliser l'énergie solaire efficacement.",
-    "projectCapacity": "Capacité du Projet: {{capacity}}",
+    "productEvaCoreParagraph": "Istek Cu+ est un capteur solaire à tube de cuivre à surface sélective haute performance conçu avec une technologie avancée. Il a été développé pour fournir une efficacité maximale de l'énergie solaire et offrir une solution durable.",
+
+    "productIstekAsk": "Pourquoi Istek Cu+ ?",
+    
+    "productAnswer1": "Grâce à sa surface sélective, il absorbe la lumière du soleil de la manière la plus efficace et la convertit en énergie.",
+ "productAnswerTitle1": "Haute efficacité énergétique :",
+ "productAnswer2": "Des matériaux et une ingénierie haut de gamme offrent une structure durable et résistante aux intempéries.",
+ "productAnswerTitle2": "Durabilité :",
+ "productAnswer3": "Fournit une solution respectueuse de l'environnement tout en réduisant les coûts énergétiques.",
+ "productAnswerTitle3": "Économique et respectueux de l'environnement :",
+ "productAnswer4": "Il offre des performances fiables avec ses techniques de production modernes et sa conception innovante.",
+ "productAnswerTitle4": "Technologie avancée :",
+     "projectCapacity": "Capacité du Projet: {{capacity}} Système",
     "countries": {
         "australia": "Australie",
         "turkey": "Turquie",

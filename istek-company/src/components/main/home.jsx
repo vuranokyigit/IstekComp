@@ -233,9 +233,9 @@ const Home = () => {
         <h6 id="ourRecentProjectParag">{t('recentProjectsParagraph')}</h6>
         <div className="slider-container">
           {[
-            { img: '/img/australiaProject.jpg', countryKey: 'australia', capacity: '200 MW' },
-            { img: '/img/istanbulProject.jpg', countryKey: 'turkey', capacity: '150 MW' },
-            { img: '/img/fasProject.jpg', countryKey: 'morocco', capacity: '100 MW' },
+            { img: '/img/australiaProject.jpg', countryKey: 'australia', capacity: '1230 m²' },
+            { img: '/img/istanbulProject.jpg', countryKey: 'turkey', capacity: '306 ' },
+            { img: '/img/fasProject.jpg', countryKey: 'morocco', capacity: '230 ' },
           ].map((item, index) => (
             <div className="slider-item" key={index}>
               <img src={item.img} alt={t(`countries.${item.countryKey}`)} />

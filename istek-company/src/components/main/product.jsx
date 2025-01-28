@@ -53,17 +53,24 @@ const Product = () => {
             <div class="col-lg-6">
               <figure class="image-hover">
                 <a href="/img/Istek_Cu+.png" data-fancybox="gallery">
-                  <img src="/img/IstekCu++.jpg" alt="" class="img-fluid main-image" />
-                  <img src="/img/collectorKapali.png" alt="" class="img-fluid hover-image" />
+                  <img src="/img/IstekCu++.jpg" alt="" class="img-fluid hover-image"/>
+                  <img src="/img/collectorKapali.png" alt="" class="img-fluid main-image"  />
                 </a>
               </figure>
             </div>
             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
               <div className="mb-5">
                 <h3 className="mb-4 h4" style={{ color: 'black' }}>
-                  Istek Cu+
+                 {t('istekCuTitle')}
                 </h3>
+                <h6 style={{ fontSize: '20px', color: 'black',marginBottom:"10px",marginTop:"-10px" }}>{t('collectorTitle2')}</h6>
+
                 <p className="mb-0">{t('productEvaCoreParagraph')}</p>
+                <h6 style={{fontWeight:"bold"}}>{t('productIstekAsk')}</h6>
+                <p className="mb-0"><span style={{fontWeight:"bold"}}>{t('productAnswerTitle1')}</span> {t('productAnswer1')}</p>
+                <p className="mb-0"><span style={{fontWeight:"bold"}}>{t('productAnswerTitle2')}</span> {t('productAnswer2')}</p>
+                <p className="mb-0"><span style={{fontWeight:"bold"}}>{t('productAnswerTitle3')}</span> {t('productAnswer3')}</p>
+                <p className="mb-0"><span style={{fontWeight:"bold"}}>{t('productAnswerTitle4')}</span> {t('productAnswer4')}</p>
               </div>
               <div>
                 <a
