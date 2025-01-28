@@ -386,18 +386,21 @@ const Product = () => {
         <div className="container">
           <div className="row mb-5 mt-5" style={{ alignItems: 'center' }}>
             <div className="col-lg-6">
-              <figure>
-                <a href="/img/solar_energy_system .png" data-fancybox="gallery">
-                  <img src="/img/solar_energy_system .jpg" alt="" className="img-fluid" />
+               <figure class="image-hover">
+                <a href="/img/solar_energy_system.png" data-fancybox="gallery">
+                  <img src="/img/yatık5_png.png" alt="" class="img-fluid hover-image"/>
+                  <img src="/img/solar_energy_system .jpg" alt="" class="img-fluid main-image"  />
                 </a>
               </figure>
+             
+           
             </div>
             <div className="col-lg-5 ml-auto h-100 jm-sticky-top">
               <div className="mb-5">
                 <h3 className="mb-4 h4" style={{ color: 'black' }}>
                   {t('dogalSolarSystemsTitle')}
                 </h3>
-                <p className="mb-0">{t('productEvaBrandParagraph')}</p>
+                <p className="mb-0">{t('productNaturalParagraph')}</p>
               </div>
               <div>
                 <a
@@ -418,9 +421,10 @@ const Product = () => {
                 </div>
                 <span className="caption">{t('productDocuments')}</span>
               </div>
-              <figure>
-                <a href="/img/solar_energy_system .png" data-fancybox="gallery">
-                  <img src="/img/dogalTable.jpg" alt="" className="img-fluid" />
+              <figure class="image-hover">
+                <a href="/img/solar_energy_system.png" data-fancybox="gallery">
+                  <img src="/img/Doğal_copy_Table2.jpg" alt="" class="img-fluid hover-image"/>
+                  <img src="/img/pompaliTable.jpg" alt="" class="img-fluid main-image"  />
                 </a>
               </figure>
             </div>
@@ -434,7 +438,7 @@ const Product = () => {
                 <h3 className="mb-4 h4" style={{ color: 'black' }}>
                   {t('pompaliSolarSystemsTitle')}
                 </h3>
-                <p className="mb-0">{t('productEvaBrandParagraph')}</p>
+                <p className="mb-0">{t('pompaliSolarSystemsParagraph')}</p>
               </div>
               <div>
                 <a
@@ -455,6 +459,8 @@ const Product = () => {
                 </div>
                 <span className="caption">{t('productDocuments')}</span>
               </div>
+
+              
               <figure>
                 <a href="/img/solar_energy_system .png" data-fancybox="gallery">
                   <img src="/img/pompaliTable.jpg" alt="" className="img-fluid" />
@@ -462,9 +468,10 @@ const Product = () => {
               </figure>
             </div>
             <div className="col-lg-6">
+           
               <figure>
                 <a href="/img/solar_energy_system .png" data-fancybox="gallery">
-                  <img src="/img/pompaliTable.jpg" alt="" className="img-fluid" />
+                  <img src="/img/pompalı_sistem_bileşenler.jpg" alt="" className="img-fluid" />
                 </a>
               </figure>
             </div>
@@ -500,33 +507,39 @@ const Product = () => {
               <div class="col-lg-3/5 " id="leftrightsectionistek">
                 <div class="column-inner dorik-column-n4vsrfs2  3/5">
                   <div class="dorik-accordion-exws77h5">
+                  <details>
+                      <summary>{t('faqQuestion0')}</summary>
+                      <div class="details-content" path="accordions/items/0/paragraph">
+                        <p>{t('faqAnswer0')}&nbsp;</p>
+                      </div>
+                    </details>
                     <details>
                       <summary>{t('faqQuestion1')}</summary>
-                      <div class="details-content" path="accordions/items/0/paragraph">
+                      <div class="details-content" path="accordions/items/1/paragraph">
                         <p>{t('faqAnswer1')}&nbsp;</p>
                       </div>
                     </details>
                     <details>
                       <summary>{t('faqQuestion2')}</summary>
-                      <div class="details-content" path="accordions/items/1/paragraph">
+                      <div class="details-content" path="accordions/items/2/paragraph">
                         <p>{t('faqAnswer2')}&nbsp;</p>
                       </div>
                     </details>
                     <details>
                       <summary>{t('faqQuestion3')}</summary>
-                      <div class="details-content" path="accordions/items/2/paragraph">
+                      <div class="details-content" path="accordions/items/3/paragraph">
                         <p>{t('faqAnswer3')}&nbsp;</p>
                       </div>
                     </details>
                     <details>
                       <summary>{t('faqQuestion4')}</summary>
-                      <div class="details-content" path="accordions/items/3/paragraph">
+                      <div class="details-content" path="accordions/items/4/paragraph">
                         <p>{t('faqAnswer4')}&nbsp;</p>
                       </div>
                     </details>
                     <details>
                       <summary>{t('faqQuestion5')}</summary>
-                      <div class="details-content" path="accordions/items/4/paragraph">
+                      <div class="details-content" path="accordions/items/5/paragraph">
                         <p>{t('faqAnswer5')}&nbsp;</p>
                       </div>
                     </details>
