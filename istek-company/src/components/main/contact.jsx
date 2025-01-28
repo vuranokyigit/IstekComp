@@ -68,7 +68,7 @@ const Contact = () => {
 
              
                 <p style={{fontSize:"larger"}}>
-                Şirinyalı Mah. 1547 Sk. No: 2A/9 Muratpaşa / Antalya / TÜRKİYE
+                Şirinyalı Mah. 1547 Sok. No: 2A/9 Muratpaşa / Antalya / TÜRKİYE
                 </p>
               </div>
             </div>
