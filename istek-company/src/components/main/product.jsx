@@ -402,25 +402,7 @@ const Product = () => {
                 </h3>
                 <p className="mb-0">{t('productNaturalParagraph')}</p>
               </div>
-              <div>
-                <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
-                  style={{ color: 'black' }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="homeIcon">
-                    <FontAwesomeIcon icon={faFileInvoice} size="2xl" />
-                  </span>
-                </a>
-                <div
-                  className="d-flex align-items-center justify-content-center mb-2"
-                  id="infoNumber"
-                >
-                  <span className="icon-line-mobile mr-6" />
-                </div>
-                <span className="caption">{t('productDocuments')}</span>
-              </div>
+         
               <figure class="image-hover">
                 <a href="/img/solar_energy_system.png" data-fancybox="gallery">
                   <img src="/img/Doğal_copy_Table2.jpg" alt="" class="img-fluid hover-image"/>
@@ -440,27 +422,7 @@ const Product = () => {
                 </h3>
                 <p className="mb-0">{t('pompaliSolarSystemsParagraph')}</p>
               </div>
-              <div>
-                <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
-                  style={{ color: 'black' }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="homeIcon">
-                    <FontAwesomeIcon icon={faFileInvoice} size="2xl" />
-                  </span>
-                </a>
-                <div
-                  className="d-flex align-items-center justify-content-center mb-2"
-                  id="infoNumber"
-                >
-                  <span className="icon-line-mobile mr-6" />
-                </div>
-                <span className="caption">{t('productDocuments')}</span>
-              </div>
 
-              
               <figure>
                 <a href="/img/solar_energy_system .png" data-fancybox="gallery">
                   <img src="/img/pompaliTable.jpg" alt="" className="img-fluid" />
