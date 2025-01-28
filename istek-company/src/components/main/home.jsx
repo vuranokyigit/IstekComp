@@ -153,6 +153,7 @@ const Home = () => {
           position: 'relative',
           zIndex: '1',
         }}
+        id='ourServiceSection'
       >
         <h1 style={{ color: 'black' }}>{t('ourServicesTitle')}</h1>
         <h6

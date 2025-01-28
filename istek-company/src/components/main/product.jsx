@@ -245,7 +245,7 @@ const Product = () => {
                 rel="noopener noreferrer"
               >
                 <span className="homeIcon">
-                  <img style={{ width: '60px', height: '60px' }} src="/img/logotse.png" alt="" />
+                  <img style={{ width: '80px', height: '60px' }} src="/img/logotse.png" alt="" />
                 </span>
               </a>
 
@@ -345,7 +345,7 @@ const Product = () => {
                 rel="noopener noreferrer"
               >
                 <span className="homeIcon">
-                  <img style={{ width: '60px', height: '60px' }} src="/img/logotse.png" alt="" />
+                  <img style={{ width: '80px', height: '60px' }} src="/img/logotse.png" alt="" />
                 </span>
               </a>
 
@@ -429,11 +429,11 @@ const Product = () => {
                 </a>
               </figure>
             </div>
-            <div className="col-lg-6">
-           
-              <figure>
-                <a href="/img/solar_energy_system .png" data-fancybox="gallery">
-                  <img src="/img/pompalı_sistem_bileşenler.jpg" alt="" className="img-fluid" />
+            <div className="col-lg-6" style={{marginTop:"-140px"}}>
+            <figure class="image-hover">
+                <a href="/img/solar_energy_system.png" data-fancybox="gallery">
+                  <img src="/img/pompalı_sistem .png" alt="" class="img-fluid hover-image"/>
+                  <img src="/img/pompalı_sistem_bileşenler.jpg" alt="" class="img-fluid main-image"  />
                 </a>
               </figure>
             </div>

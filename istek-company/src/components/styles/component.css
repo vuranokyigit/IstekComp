@@ -995,4 +995,20 @@ video{
   .image-hover:hover .hover-image {
     opacity: 1;
   }
-  
+  #iconBrandCert a{
+    margin-right: 20px;
+  }
+  @media (max-width: 768px) {
+    #ourServiceSection {
+        background-color: white;
+        margin-top: -36px!important;
+        border-radius: 50px 50px 0px 0px;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        position: relative;
+        z-index: 1;
+    }
+    #ourServiceSection h6{
+        width: 90%!important;
+    }
+}  
