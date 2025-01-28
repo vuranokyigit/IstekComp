@@ -1011,4 +1011,21 @@ video{
     #ourServiceSection h6{
         width: 90%!important;
     }
+    #firstBoilerSec{
+        width: 100%!important;
+    }
+    #secondBoilerSec{
+        width: 100%!important;
+    }
+    #secondBoilerSec #secondBoylerFig{
+        display: contents;
+        align-items: center;
+    }
+    #secondBoilerSec figure{
+        width: 70%!important;
+       
+    }
+    #projectCountryCardsMobile{
+        font-size: smaller;
+    }
 }  

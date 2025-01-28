@@ -74,9 +74,9 @@ const Product = () => {
               </div>
               <div>
                 <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
+                  href="/Collector_Teknik_Sheet.pdf"
                   style={{ color: 'black' }}
-                  target="/istek/Istek_Cu+_Technical_Sheet.pdf"
+                  target="/istek/Collector_Teknik_Sheet.pdf"
                   rel="noopener noreferrer"
                 >
                   <span className="homeIcon">
@@ -91,6 +91,8 @@ const Product = () => {
                 </div>
                 <span className="caption">{t('productDocuments')}</span>
               </div>
+              <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white",backgroundColor:"black"}}>{t('buyButton')}</button></a>
+
               <div id="certificateIcon">
                 <a
                   href="/Istek_Cu+_Technical_Sheet.pdf"
@@ -206,9 +208,9 @@ const Product = () => {
             </div>
             <div>
               <a
-                href="/boiler.pdf"
+                href="/Dik_Boyler_Teknik_Sheet.pdf"
                 style={{ color: 'white', marginLeft: '10px' }}
-                target="/istek/boiler.pdf"
+                target="/istek/Dik_Boyler_Teknik_Sheet.pdf"
                 rel="noopener noreferrer"
               >
                 <span className="homeIcon">
@@ -223,6 +225,7 @@ const Product = () => {
               </div>
               <span className="caption">{t('productDocuments')}</span>
             </div>
+            <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('buyButton')}</button></a>
 
             <div
               id="iconBrandCert"
@@ -290,14 +293,14 @@ const Product = () => {
                 alignItems: 'center',
               }}
             >
-              <div className="col-lg-4">
+              <div className="col-lg-4" id='secondBoylerFig'>
                 <figure>
                   <a href="/img/Boyler_kılıflı-Photoroom.png" data-fancybox="gallery">
                     <img src="/img/yatık_boyler2-Photoroom.png" alt="" className="img-fluid" />
                   </a>
                 </figure>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4" id='secondBoylerFig'>
                 <figure>
                   <a href="/img/boyler_çift_tek_serpantin-Photoroom.png" data-fancybox="gallery">
                     <img src="/img/yatık_boyler-Photoroom.png" alt="" className="img-fluid" />
@@ -307,15 +310,16 @@ const Product = () => {
             </div>
             <div style={{ marginTop: '4%' }}>
               <a
-                href="/boiler.pdf"
+                href="/Yatık_Boyler_Teknik_Sheet.pdf"
                 style={{ color: 'white' }}
-                target="/istek/boiler.pdf"
+                target="/istek/Yatık_Boyler_Teknik_Sheet.pdf"
                 rel="noopener noreferrer"
               >
                 <span className="homeIcon">
                   <FontAwesomeIcon icon={faFileInvoice} size="2xl" />
                 </span>
               </a>
+              
               <div
                 className="d-flex align-items-center justify-content-center mb-2"
                 id="infoNumber"
@@ -324,6 +328,7 @@ const Product = () => {
               </div>
               <span className="caption">{t('productDocuments')}</span>
             </div>
+            <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('buyButton')}</button></a>
             <div
               id="iconBrandCert"
               style={{ display: 'flex', justifyContent: 'center', marginTop: '3%' }}
