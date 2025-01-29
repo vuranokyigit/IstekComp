@@ -57,7 +57,7 @@
     "productNaturalParagraph":"Kapalı devre doğal sirkülasyonlu sistemler, pompa kullanımı gerektirmediği için enerji tüketimini minimize eder ve işletme maliyetlerini düşürür. Bu sayede, sistem daha düşük enerjiyle verimli çalışırken, aynı zamanda bakım gereksinimleri de azalmış olur. Kapalı devre yapısı, donma riskini ortadan kaldırarak, özellikle soğuk iklimlerde güvenli bir kullanım sağlar. Küçük ve kısa mesafeli kurulumlar için ideal olup, basit bir yapıya sahip olduğu için verimli ve ekonomik bir seçenek sunar.",
     "pompaliSolarSystemsTitle":"Pompalı Sistemler",
     "pompaliSolarSystemsParagraph": "Kapalı devre pompalı sistemlerde, sıvı hareketi pompa aracılığıyla kontrol edilerek hızlı ve verimli bir akış sağlanır. Bu sistem, kolektör ile dik boyler arasındaki mesafeyi artırarak geniş alanlarda etkili şekilde çalışabilir. Ayrıca, dik boyler kolektörün hemen üzerinde olmak zorunda olmadığı için boyler, istediğiniz herhangi bir noktaya konumlandırılabilir. Pompa kullanımı sayesinde enerji verimliliği artırılır ve tasarımda esneklik sağlanarak sistem, farklı uygulama ihtiyaçlarına göre optimize edilebilir. Kapalı devre yapısı sayesinde donma riski ortadan kaldırılır ve soğuk iklimlerde güvenli kullanım sağlar. Bu sistemler, büyük alanlar için yüksek verimlilik, güvenilirlik ve esneklik sunar.",
-    "productFAQEntryParagraph": "İstek Solar olarak, güneş enerjisi sistemlerinizden en yüksek verimi almanız için buradayız. Ürünlerimizle ilgili en çok sorulan soruların cevaplarını aşağıda bulabilirsiniz. Hâlâ sorularınız varsa, uzmanlarımız size yardımcı olmaktan mutluluk duyacaktır.",
+    "productFAQEntryParagraph": "İstek  olarak, güneş enerjisi sistemlerinizden en yüksek verimi almanız için buradayız. Ürünlerimizle ilgili en çok sorulan soruların cevaplarını aşağıda bulabilirsiniz. Hâlâ sorularınız varsa, uzmanlarımız size yardımcı olmaktan mutluluk duyacaktır.",
     "productCardsBackText": "Detayları Görüntüle",
     "productDocumentTitle": "Teknik Bilgi",
     "productDocuments": "Teknik Bilgi ",
@@ -148,6 +148,8 @@
   "KollektorL":"Istek Cu+ Büyük",
   "KollektorS":"Istek Cu+ Standart",
   "solarEnergySystemTitle": "Güneş Enerjisi Sistemleri Hesaplama Aracı",
+  "projectCapacityAu": "Proje Kapasitesi: {{capacity}} ",
+
   "projectCapacity": "Proje Kapasitesi: {{capacity}} Sistem",
   "countries": {
     "australia": "Avustralya",

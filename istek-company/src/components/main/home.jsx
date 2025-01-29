@@ -242,7 +242,7 @@ const Home = () => {
               <img src={item.img} alt={t(`countries.${item.countryKey}`)} />
               <div className="slider-overlay">
                 <h2>{t(`countries.${item.countryKey}`)}</h2>
-                <p id='projectCountryCardsMobile'>{t('projectCapacity', { capacity: item.capacity })}</p>
+                <p id='projectCountryCardsMobile'>  {t(item.countryKey === 'australia' ? 'projectCapacityAu' : 'projectCapacity', { capacity: item.capacity })}</p>
               </div>
             </div>
           ))}

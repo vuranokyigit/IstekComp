@@ -318,14 +318,19 @@ video{
         align-items: center;
 
     }
-    #boilersDisplay p{
+  
+}
+/* @media (min-width: 768px) {
+    #iconBrandCert{
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        align-items: center;
         
-
     }
-}
-#iconBrandCert{
-    margin-bottom: 10px;
-}
+} */
+
 #counterPart{
     justify-content: center;
     display: flex;

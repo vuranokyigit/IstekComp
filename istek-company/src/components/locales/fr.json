@@ -45,8 +45,7 @@
 "energyNaturalParagraph": "Nous exploitons la puissance du soleil pour fournir des solutions énergétiques écologiques et rentables. Avec une large gamme de produits allant des capteurs solaires thermiques aux systèmes énergétiques, nous proposons des services de vente, d'installation et d'après-vente. De plus, nous contribuons à la transformation énergétique mondiale en exportant nos produits dans le monde entier.",
 "recentProjectsTitle": "Nos projets récents",
 "productMainTitle": "PRODUITS",
-"buyButton": "Acheter",
-
+  "productFAQEntryParagraph": "Chez Istek, nous sommes là pour vous aider à tirer le meilleur parti de vos systèmes d'énergie solaire. Ci-dessous, vous trouverez les réponses aux questions les plus fréquemment posées sur nos produits. Si vous avez encore des questions, nos experts se feront un plaisir de vous aider.",
 "dogalSolarSystemsTitle": "Systèmes de circulation naturelle",
 "productNaturalParagraph": "Les systèmes de circulation naturelle en circuit fermé minimisent la consommation d'énergie et réduisent les coûts d'exploitation puisqu'ils ne nécessitent pas l'utilisation de pompes. Ainsi, le système fonctionne efficacement avec une consommation d'énergie réduite tout en diminuant les besoins de maintenance. La structure en circuit fermé élimine le risque de gel, assurant une utilisation sûre, notamment dans les climats froids. Elle est idéale pour les installations de petite taille et de courte distance, offrant une solution efficace et économique grâce à son design simple.",
  "pompaliSolarSystemsTitle": "Systèmes à pompage",
@@ -116,6 +115,7 @@
  "productAnswerTitle3": "Économique et respectueux de l'environnement :",
  "productAnswer4": "Il offre des performances fiables avec ses techniques de production modernes et sa conception innovante.",
  "productAnswerTitle4": "Technologie avancée :",
+ "projectCapacityAu": "Capacité du Projet: {{capacity}} ",
      "projectCapacity": "Capacité du Projet: {{capacity}} Système",
     "countries": {
         "australia": "Australie",

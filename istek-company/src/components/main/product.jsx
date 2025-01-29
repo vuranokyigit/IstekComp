@@ -160,6 +160,7 @@ const Product = () => {
           paddingBottom: '5rem',
           position: 'relative',
           zIndex: '1',
+
         }}
       >
         <h1 style={{ fontSize: '40px' }}> {t('boilerTitle3')}</h1>

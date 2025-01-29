@@ -75,7 +75,7 @@
     "productBoylerParagraph1": "Vertical coil boilers, with their vertical design, provide space-saving solutions while optimizing the natural circulation of hot water and ensuring homogeneous heat distribution. These boilers, equipped with a specially designed coil system, transfer energy quickly and efficiently, offering compatibility with different energy sources through single or double coil options. They work in perfect harmony with solar collectors, eliminating the necessity of being placed above the collectors, thus providing flexible installation options. Standing out with high-pressure resistance, long-lasting structure, and user-friendly design, vertical coil boilers are an ideal choice for energy savings and sustainable use. They offer efficient, reliable, and modern hot water solutions for both residential and commercial spaces.",
     "productBoylerParagraph2": "Horizontal pressure boilers offer flexible installation options with their horizontal design and provide an indispensable solution for natural circulation systems. In these boilers, the heat transfer liquid circulates within a special jacket structure without mixing with the domestic water, ensuring efficient energy transfer. These boilers are compatible with solar collectors and utilize natural circulation to move water, offering a safe and efficient hot water solution. With high pressure resistance, durable material construction, and a long-lasting design, horizontal pressure boilers are an excellent choice for both individual and commercial use, delivering eco-friendly performance and energy-saving features.",
     "producSolarSystemsTitle": "Solar Energy Systems",
-    "productFAQEntryParagraph": "At Istek Solar, we are here to help you get the most out of your solar energy systems. Below, you can find answers to the most frequently asked questions about our products. If you still have questions, our experts will be happy to assist you.",
+    "productFAQEntryParagraph": "At Istek , we are here to help you get the most out of your solar energy systems. Below, you can find answers to the most frequently asked questions about our products. If you still have questions, our experts will be happy to assist you.",
     "productEvaRenewCertificateDoc": "Global Recycled Standard Certificate",
     "collectorTitle": "SOLAR COLLECTORS",
     "boilerTitle3": "BOILER",
@@ -158,6 +158,8 @@
   "KollektorL": "Istek Cu+ Large ",
   "KollektorS": "Istek Cu+ Standard",
   "solarEnergySystemTitle": "Solar Energy System Calculation",
+  "projectCapacityAu": "Project Capacity: {{capacity}} ",
+
   "projectCapacity": "Project Capacity: {{capacity}} System",
     "countries": {
     "australia": "Australia",
