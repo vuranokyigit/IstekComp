@@ -498,6 +498,9 @@ section{
 .section-hero, .section-hero > .container > .row {
     height: 100vh;
     min-height: 900px; }
+    @media (max-width: 991.98px) {
+        #counterMainDiv {
+            --bs-gutter-x: 0rem; } }
 
 .section-hero.overlay, .section-hero.overlay-2 {
     position: relative; }

@@ -296,14 +296,14 @@ const Product = () => {
             >
               <div className="col-lg-4" id='secondBoylerFig'>
                 <figure>
-                  <a href="/img/Boyler_kılıflı-Photoroom.png" data-fancybox="gallery">
+                  <a href="/img/yatık_boyler2-Photoroom.png" data-fancybox="gallery">
                     <img src="/img/yatık_boyler2-Photoroom.png" alt="" className="img-fluid" />
                   </a>
                 </figure>
               </div>
               <div className="col-lg-4" id='secondBoylerFig'>
                 <figure>
-                  <a href="/img/boyler_çift_tek_serpantin-Photoroom.png" data-fancybox="gallery">
+                  <a href="/img/yatık_boyler-Photoroom.png" data-fancybox="gallery">
                     <img src="/img/yatık_boyler-Photoroom.png" alt="" className="img-fluid" />
                   </a>
                 </figure>
