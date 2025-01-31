@@ -52,7 +52,7 @@ const Product = () => {
           <div className="row mb-5 mt-5">
             <div class="col-lg-6">
               <figure class="image-hover">
-                <a href="/img/Istek_Cu+.png" data-fancybox="gallery">
+                <a href="/img/collectorKapali.png" data-fancybox="gallery">
                   <img src="/img/IstekCu++.jpg" alt="" class="img-fluid hover-image"/>
                   <img src="/img/collectorKapali.png" alt="" class="img-fluid main-image"  />
                 </a>
@@ -95,7 +95,7 @@ const Product = () => {
 
               <div id="certificateIcon">
                 <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
+                  href="/img/Türk_Standardları_Enstitüsü.png"
                   style={{ color: 'black' }}
                   target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                   rel="noopener noreferrer"
@@ -105,7 +105,7 @@ const Product = () => {
                   </span>
                 </a>
                 <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
+                  href="/img/standardsmark.png"
                   style={{ color: 'black' }}
                   target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                   rel="noopener noreferrer"
@@ -115,7 +115,7 @@ const Product = () => {
                   </span>
                 </a>
                 <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
+                  href="/img/CE-Logo.png"
                   style={{ color: 'black' }}
                   target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                   rel="noopener noreferrer"
@@ -125,7 +125,7 @@ const Product = () => {
                   </span>
                 </a>
                 <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
+                  href="/img/solarkeymark.png"
                   style={{ color: 'black' }}
                   target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                   rel="noopener noreferrer"
@@ -135,7 +135,7 @@ const Product = () => {
                   </span>
                 </a>
                 <a
-                  href="/Istek_Cu+_Technical_Sheet.pdf"
+                  href="/img/iso9001.png"
                   style={{ color: 'black' }}
                   target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                   rel="noopener noreferrer"
@@ -233,7 +233,7 @@ const Product = () => {
               style={{ display: 'flex', justifyContent: 'center', marginTop: '3%' }}
             >
               <a
-                href="/Istek_Cu+_Technical_Sheet.pdf"
+                href="/img/iso9001.png"
                 style={{ color: 'black' }}
                 target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                 rel="noopener noreferrer"
@@ -243,7 +243,7 @@ const Product = () => {
                 </span>
               </a>
               <a
-                href="/Istek_Cu+_Technical_Sheet.pdf"
+                href="/img/logotse.png"
                 style={{ color: 'black' }}
                 target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                 rel="noopener noreferrer"
@@ -254,7 +254,7 @@ const Product = () => {
               </a>
 
               <a
-                href="/Istek_Cu+_Technical_Sheet.pdf"
+                href="/img/cebeyazsiyah.jpg"
                 style={{ color: 'black' }}
                 target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                 rel="noopener noreferrer"
@@ -270,7 +270,7 @@ const Product = () => {
             </div>
           </div>
           <div id="secondBoilerSec" style={{ width: '50%' }}>
-            <h1 style={{ fontSize: '25px' }}>{t('boilerTitle2')}</h1>
+            <h1  style={{ fontSize: '25px' }}>{t('boilerTitle2')}</h1>
             <p
               className="mb-0"
               style={{
@@ -335,7 +335,7 @@ const Product = () => {
               style={{ display: 'flex', justifyContent: 'center', marginTop: '3%' }}
             >
               <a
-                href="/Istek_Cu+_Technical_Sheet.pdf"
+                href="/img/iso9001.png"
                 style={{ color: 'black' }}
                 target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                 rel="noopener noreferrer"
@@ -345,7 +345,7 @@ const Product = () => {
                 </span>
               </a>
               <a
-                href="/Istek_Cu+_Technical_Sheet.pdf"
+                href="/img/logotse.png"
                 style={{ color: 'black' }}
                 target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                 rel="noopener noreferrer"
@@ -356,7 +356,7 @@ const Product = () => {
               </a>
 
               <a
-                href="/Istek_Cu+_Technical_Sheet.pdf"
+                href="/img/cebeyazsiyah.jpg"
                 style={{ color: 'black' }}
                 target="/istek/Istek_Cu+_Technical_Sheet.pdf"
                 rel="noopener noreferrer"
@@ -393,7 +393,7 @@ const Product = () => {
           <div className="row mb-5 mt-5" style={{ alignItems: 'center' }}>
             <div className="col-lg-6">
                <figure class="image-hover">
-                <a href="/img/solar_energy_system.png" data-fancybox="gallery">
+                <a href="/img/solar_energy_system .jpg" data-fancybox="gallery">
                   <img src="/img/yatık5_png.png" alt="" class="img-fluid hover-image"/>
                   <img src="/img/solar_energy_system .jpg" alt="" class="img-fluid main-image"  />
                 </a>
@@ -410,7 +410,7 @@ const Product = () => {
               </div>
          
               <figure class="image-hover">
-                <a href="/img/solar_energy_system.png" data-fancybox="gallery">
+                <a href="/img/pompaliTable.jpg" data-fancybox="gallery">
                   <img src="/img/Doğal_copy_Table2.jpg" alt="" class="img-fluid hover-image"/>
                   <img src="/img/pompaliTable.jpg" alt="" class="img-fluid main-image"  />
                 </a>
@@ -430,14 +430,14 @@ const Product = () => {
               </div>
 
               <figure>
-                <a href="/img/solar_energy_system .png" data-fancybox="gallery">
+                <a href="/img/pompaliTable.jpg" data-fancybox="gallery">
                   <img src="/img/pompaliTable.jpg" alt="" className="img-fluid" />
                 </a>
               </figure>
             </div>
             <div className="col-lg-6" style={{marginTop:"-140px"}}>
             <figure class="image-hover">
-                <a href="/img/solar_energy_system.png" data-fancybox="gallery">
+                <a href="/img/pompalı_sistem_bileşenler.jpg" data-fancybox="gallery">
                   <img src="/img/pompalı_sistem .png" alt="" class="img-fluid hover-image"/>
                   <img src="/img/pompalı_sistem_bileşenler.jpg" alt="" class="img-fluid main-image"  />
                 </a>
