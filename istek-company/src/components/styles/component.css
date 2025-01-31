@@ -595,9 +595,19 @@ video{
 }
 
 /*FOOTER*/
+#scrollTopUnique{
+    margin-top: 10px;
+}
+@media (max-width: 769px) {
+    #scrollTopUnique{
+        margin-top: 1px;
+    }
+}
+
 #footerInfoSection{
     display: flex;
     justify-content: center;
+    margin-top: 35px;
 }
 #footerContactSection{
 

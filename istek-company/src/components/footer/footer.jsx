@@ -10,7 +10,7 @@ const Footer = () => {
     return(
         <>
             <footer className="site-footer slanted-footer" style={{marginTop:"-60px"}}>
-                <a href="#top" className="smoothscroll scroll-top" style={{marginTop:"20px"}}>
+                <a href="#top" className="smoothscroll scroll-top" id="scrollTopUnique">
                     <span><FontAwesomeIcon icon={faArrowUp} /></span>
                 </a>
                 <div className="container">
