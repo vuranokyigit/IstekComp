@@ -151,17 +151,7 @@ const Product = () => {
       </section>
       <section
         id="boilerSection"
-        style={{
-          color: 'white',
-          backgroundColor: 'black',
-          marginTop: '-66px',
-          borderRadius: '50px 50px 0px 0px',
-          paddingTop: '5rem',
-          paddingBottom: '5rem',
-          position: 'relative',
-          zIndex: '1',
-
-        }}
+        
       >
         <h1 style={{ fontSize: '40px' }}> {t('boilerTitle3')}</h1>
         <div id="boilersDisplay" style={{ display: 'flex' }}>
@@ -410,9 +400,9 @@ const Product = () => {
               </div>
          
               <figure class="image-hover">
-                <a href="/img/pompaliTable.jpg" data-fancybox="gallery">
+                <a href="/img/dogalTable.jpg" data-fancybox="gallery">
                   <img src="/img/Doğal_copy_Table2.jpg" alt="" class="img-fluid hover-image"/>
-                  <img src="/img/pompaliTable.jpg" alt="" class="img-fluid main-image"  />
+                  <img src="/img/dogalTable.jpg" alt="" class="img-fluid main-image"  />
                 </a>
               </figure>
             </div>
@@ -430,8 +420,8 @@ const Product = () => {
               </div>
 
               <figure>
-                <a href="/img/pompaliTable.jpg" data-fancybox="gallery">
-                  <img src="/img/pompaliTable.jpg" alt="" className="img-fluid" />
+                <a href="/img/pompalisistemtablo.jpg" data-fancybox="gallery">
+                  <img src="/img/pompalisistemtablo.jpg" alt="" className="img-fluid" />
                 </a>
               </figure>
             </div>
