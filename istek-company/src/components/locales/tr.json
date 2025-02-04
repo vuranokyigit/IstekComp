@@ -63,7 +63,6 @@
     "productDocuments": "Teknik Bilgi ",
     "productNotesTitle": "Notlar",
     "buyButton": "Satın Al",
-
     "productNotesParagraph": "Burada rapor edilen teknik özellikler, ürünün genişletilmiş ve çapraz bağlanmış levhalar üzerinde gerçekleştirilen laboratuvar testlerinden elde edilmiştir ve ürünün genleşme katsayısına karşılık gelen bir genleşme oranına sahiptir. Bu özellikler, gösterge niteliğinde olup kesin olarak bağlayıcı değildir.",
     "productEvaRenewCertificateTitle": "Teknik Özellikler",
     "collectorTitle": "GÜNEŞ KOLLEKTÖRLERİ",
@@ -101,7 +100,7 @@
     "footerPrivacy": "Gizlilik ve Politika",
     "maintenanceMainTitle": "BAKIM",
     "faqQuestion0":"Güneş Enerji Sistemleri Soğuk İklimlerde Kullanılabilir mi?",
-    "faqAnswer0":"Güneş kollektörleri soğuk iklimlerde de kullanılabilir. Güneş kollektörleri, selektif yüzeyleri sayesinde güneş ışığını soğurarak toplar ve ısıya dönüştürür, bu nedenle sadece sıcak iklimlerde değil, soğuk iklimlerde de etkili bir şekilde çalışabilirler. Soğuk bölgelerde, kollektörlerin verimliliği, güneş ışığının yoğunluğuna ve sürekliliğine bağlıdır. Bu tür sistemlerde, donma riskini önlemek için genellikle antifrizli sıvılar ve kapalı devre sistemler kullanılır.Soğuk iklimlerde kullanılan güneş kollektörlerinde, özellikle donma, kar ve buzlanma gibi olumsuz hava koşullarına karşı ek önlemler almak gerekir. Kapalı devre pompalı veya doğal sirkülasyonlu sistemler, donmayı engelleyici tasarımlarıyla soğuk hava koşullarında dahi verimli çalışabilir. ",
+    "faqAnswer0":"Güneş kollektörleri soğuk iklimlerde de kullanılabilir. Güneş kollektörleri, selektif yüzeyleri sayesinde güneş ışığını soğurarak toplar ve ısıya dönüştürür, bu nedenle sadece sıcak iklimlerde değil, soğuk iklimlerde de etkili bir şekilde çalışabilirler. Soğuk bölgelerde, kollektörlerin verimliliği, güneş ışığının yoğunluğuna ve sürekliliğine bağlıdır. Bu tür sistemlerde, donma riskini önlemek için genellikle antifrizli sıvılar ve kapalı devre sistemler kullanılır. Soğuk iklimlerde kullanılan güneş kollektörlerinde, özellikle donma, kar ve buzlanma gibi olumsuz hava koşullarına karşı ek önlemler almak gerekir. Kapalı devre pompalı veya doğal sirkülasyonlu sistemler, donmayı engelleyici tasarımlarıyla soğuk hava koşullarında dahi verimli çalışabilir. ",
     "faqQuestion1":"Donma Sorunlarını Nasıl Önlerim?",
     "faqAnswer1":"Donma problemi yaşanan bölgelerde, güneş kolektör sistemlerinde antifrizli kapalı devre sistemlerin tercih edilmesi gerekmektedir. Bu sistemler, güneş kolektörlerindeki donmayı önlemek için en etkili yöntemlerden biridir. Kolektör devresinde su yerine antifriz (genellikle propilen glikol karışımı) dolaşır. Antifriz, sıvının donma noktasını düşürerek soğuk hava koşullarında sıvının donmasını engeller. Kapalı devre çalışan bu sistem, antifrizli sıvının kolektörler içinde dolaşmasını sağlar ve bir ısı eşanjörü aracılığıyla sıcaklığı kullanma suyuna transfer eder. Bu sayede sistem, düşük sıcaklıklarda bile güvenli ve kesintisiz bir şekilde çalışır.",
     "faqQuestion2":"Kireçlenme ve Tortu Birikimini Nasıl Önlerim?",

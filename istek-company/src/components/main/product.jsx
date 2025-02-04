@@ -91,7 +91,7 @@ const Product = () => {
                 </div>
                 <span className="caption">{t('productDocuments')}</span>
               </div>
-              <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white",backgroundColor:"black"}}>{t('buyButton')}</button></a>
+              <a href="/istek/contact#iletisimCards"><button className="btn btn-outline-white btn-sm " style={{color: "white",backgroundColor:"black"}}>{t('buyButton')}</button></a>
 
               <div id="certificateIcon">
                 <a
@@ -216,7 +216,7 @@ const Product = () => {
               </div>
               <span className="caption">{t('productDocuments')}</span>
             </div>
-            <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('buyButton')}</button></a>
+            <a href="/istek/contact#iletisimCards"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('buyButton')}</button></a>
 
             <div
               id="iconBrandCert"
@@ -319,7 +319,7 @@ const Product = () => {
               </div>
               <span className="caption">{t('productDocuments')}</span>
             </div>
-            <a href="/istek/contact"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('buyButton')}</button></a>
+            <a href="/istek/contact#iletisimCards"><button className="btn btn-outline-white btn-sm " style={{color: "white"}}>{t('buyButton')}</button></a>
             <div
               id="iconBrandCert"
               style={{ display: 'flex', justifyContent: 'center', marginTop: '3%' }}

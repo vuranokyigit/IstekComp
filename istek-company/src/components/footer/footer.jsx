@@ -46,9 +46,9 @@ const Footer = () => {
                                 <li>
                                     <a href="/istek/product">{t('footerProducts3')}</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="/istek/product">{t('footerCompanyLink4')}</a>
-                                </li>
+                                </li> */}
                                
                             </ul>
                         </div>

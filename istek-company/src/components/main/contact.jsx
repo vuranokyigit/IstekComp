@@ -35,6 +35,7 @@ const Contact = () => {
           position: 'relative',
           zIndex: '1',
         }}
+        id='iletisimCards'
       >
         <div class="container2" style={{ justifyContent: 'center', marginTop: '50px' }}>
           <div class="card" style={{ height: '300px', minWidth: '300px' }}>
