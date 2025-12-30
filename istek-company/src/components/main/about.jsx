@@ -82,7 +82,7 @@ const About = () => {
             
           </figcaption>
         </figure>
-        <figure class="snip1336 hover">
+        {/* <figure class="snip1336 hover">
           <img
             src="/img/turku_bk.jpg"
             alt="sample74"
@@ -104,7 +104,7 @@ const About = () => {
             </p>
             
           </figcaption>
-        </figure>
+        </figure> */}
         </div>
       </section>
     </>

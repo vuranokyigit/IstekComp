@@ -51,7 +51,7 @@ const Contact = () => {
 
                 
                 <p style={{fontSize:"larger"}}>
-                <a href="https://web.whatsapp.com/+905367745759">+905367745759</a>
+                <a href="https://web.whatsapp.com/+905367745759">+90 536 774 57 59</a>
                 </p>
               </div>
             </div>
